@@ -59,6 +59,11 @@ public class User {
      */
     @ManyToMany(mappedBy = "users")
     private Set<Authority> authorities = new HashSet<>();
+    /**
+     * Es un atributo exclusivo de la clase de java, que representa la relación de la clase con sus tareas respectivas.
+     */
+    @OneToMany(mappedBy = "user")
+    private Set<Task> tasks = new HashSet<>();
 
     /**
      * Es el contructor de la clase User la cual solo tiene como parametros los atributos que no se inicializan automaticamente.
