@@ -17,7 +17,7 @@ import java.time.LocalTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
+@ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 @Entity
 public class NonPeriodicTask extends Task {
@@ -33,7 +33,7 @@ public class NonPeriodicTask extends Task {
     @NotNull(message = "{nonPeriodicTask.initTime.notNull}")
     private LocalTime initTime;
 
-    public NonPeriodicTask(String name, String description, State state, LocalDate initDate, LocalTime initTime, User user) {
+    public NonPeriodicTask(String name, String description, State state, User user, LocalDate initDate, LocalTime initTime) {
         super(name, description, state, user);
         this.initDate = initDate;
         this.initTime = initTime;

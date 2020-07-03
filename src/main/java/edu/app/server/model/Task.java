@@ -1,9 +1,6 @@
 package edu.app.server.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -14,10 +11,13 @@ import javax.validation.constraints.Size;
 /**
  * Esta clase es de la cual heredan las clases NonPeriodicTask y PeriodicTask,
  */
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+
+@Setter
+@Getter
 @ToString
+@EqualsAndHashCode(exclude = {"user"})
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public class Task {
@@ -26,35 +26,35 @@ public class Task {
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    protected Long id;
     /**
      * Es el nombre de la tarea.
      */
     @NotBlank(message = "{task.name.notBlank}")
-    @Pattern(regexp = "[a-zA-Z]+", message = "{task.name.pattern}")
+    @Pattern(regexp = "[a-zA-Z_ ]+", message = "{task.name.pattern}")
     @Size(min = 8, max = 32, message = "{task.name.size}")
     @Column(nullable = false, length = 32)
-    private String name;
+    protected String name;
     /**
      * Es la descripción de la tarea.
      */
     @NotBlank(message = "{task.description.notBlank}")
     @Size(min = 8, max = 128, message = "{task.description.size}")
     @Column(nullable = false, length = 128)
-    private String description;
+    protected String description;
     /**
      * Es el estado de la tarea.
      */
     @NotNull(message = "{task.state.notNull}")
     @Enumerated(EnumType.STRING)
-    private State state;
+    protected State state;
 
     /**
      * Es el usuario que es propetario de la tarea.
      */
     @ManyToOne
     @NotNull(message = "{task.user.notNull}")
-    private User user;
+    protected User user;
 
     /**
      * Es el constructor de la tarea.

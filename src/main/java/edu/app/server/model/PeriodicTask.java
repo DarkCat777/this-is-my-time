@@ -1,9 +1,6 @@
 package edu.app.server.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.JoinTable;
@@ -21,6 +18,7 @@ import java.util.Set;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class PeriodicTask extends Task {
     /**
@@ -33,4 +31,8 @@ public class PeriodicTask extends Task {
     @ManyToMany
     @JoinTable
     private Set<Periodicity> periodicities = new HashSet<>();
+
+    public PeriodicTask(String name, String description, State state, User user) {
+        super(name, description, state, user);
+    }
 }

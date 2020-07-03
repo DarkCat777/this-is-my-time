@@ -1,6 +1,5 @@
 package edu.app.server.service;
 
-import edu.app.server.model.Authority;
 import edu.app.server.model.User;
 import edu.app.server.repository.UserRepository;
 import lombok.extern.log4j.Log4j2;
@@ -12,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import java.util.HashSet;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -30,7 +28,7 @@ public class UserServiceTest {
     @BeforeEach
     @DisplayName("Initialize Mock UserRepository")
     void beforeAll() {
-        User user = new User(1L, "erickdmh@outlook.es", "1234567", true, new HashSet<Authority>());
+        User user = new User("erickdmh@outlook.es", "1234567", true);
         Mockito.when(userRepository.findByUsername("erickdmh@outlook.es")).thenReturn(Optional.of(user));
         Mockito.when(userRepository.findById(user.getId())).thenReturn(Optional.of(user));
     }
@@ -45,7 +43,7 @@ public class UserServiceTest {
     @Test
     @DisplayName("Testing method deleteUser()")
     void deleteUserTest() {
-        User user = new User(1L, "erickdmh@outlook.es", "1234567", true, null);
+        User user = new User("erickdmh@outlook.es", "1234567", true);
         assertEquals(userService.deleteUser(user), "Success delete user");
     }
 
