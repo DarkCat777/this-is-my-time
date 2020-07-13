@@ -7,7 +7,7 @@ public enum State {
     /**
      * Significa que la tarea aun esta en proceso.
      */
-    IN_PROCCESS,
+    IN_PROCESS,
     /**
      * Significa que la tarea esta como pendiente.
      */

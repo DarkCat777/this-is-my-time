@@ -5,10 +5,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.http.HttpMethod;
 import org.springframework.orm.jpa.JpaObjectRetrievalFailureException;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 @DataJpaTest
 public class ResourceRepositoryTest {
@@ -20,6 +20,7 @@ public class ResourceRepositoryTest {
     void testResourceRepositoryOperationSave() {
         Resource resource = new Resource();
         resource.setResource("/users");
+        resource.setHttpMethod(HttpMethod.GET);
         resource.setIsEnable(true);
         resourceRepository.save(resource);
         assertNotNull("No se guardo.", resource.getId());
@@ -30,6 +31,7 @@ public class ResourceRepositoryTest {
     void testResourceRepositoryOperationUpdate() {
         Resource resource = new Resource();
         resource.setResource("/objects");
+        resource.setHttpMethod(HttpMethod.POST);
         resource.setIsEnable(true);
         this.resourceRepository.save(resource);
         Resource resourceRep = this.resourceRepository.getOne(resource.getId());
@@ -41,6 +43,7 @@ public class ResourceRepositoryTest {
     void testResourceRepositoryOperationDelete() {
         Resource resource = new Resource();
         resource.setResource("/resource");
+        resource.setHttpMethod(HttpMethod.POST);
         resource.setIsEnable(true);
         this.resourceRepository.save(resource);
         this.resourceRepository.delete(resource);
@@ -54,10 +57,12 @@ public class ResourceRepositoryTest {
     void testResourceRepositoryOperationGetAll() {
         Resource resource = new Resource();
         resource.setResource("/resource");
+        resource.setHttpMethod(HttpMethod.GET);
         resource.setIsEnable(true);
         this.resourceRepository.save(resource);
         Resource resource1 = new Resource();
         resource1.setResource("/complete");
+        resource1.setHttpMethod(HttpMethod.POST);
         resource1.setIsEnable(true);
         this.resourceRepository.save(resource1);
         assertEquals(2, this.resourceRepository.findAll().size());

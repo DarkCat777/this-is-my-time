@@ -3,6 +3,7 @@ package edu.app.server.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -18,6 +19,7 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString(exclude = {"tasks"})
 @Entity
 public class User {
     /**

@@ -3,6 +3,7 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
     id 'java'
     id 'jacoco'
+    id 'info.solidsoft.pitest' version '1.5.1'
 }
 
 group = 'edu.app.server'
@@ -45,8 +46,10 @@ test {
     useJUnitPlatform()
 }
 
-check.dependsOn jacocoTestCoverageVerification
-check.dependsOn jacocoTestReport
+pitest{
+    timestampedReports = false
+    junit5PluginVersion = '0.12'
+}
 
 jacocoTestReport {
     reports {
@@ -54,3 +57,7 @@ jacocoTestReport {
         csv.enabled true
     }
 }
+
+check.dependsOn jacocoTestCoverageVerification
+check.dependsOn jacocoTestReport
+check.dependsOn 'pitest'

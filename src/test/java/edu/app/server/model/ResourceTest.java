@@ -20,7 +20,6 @@ public class ResourceTest {
     @Autowired
     private Validator validator;
 
-    @NullAndEmptySource
     @DisplayName("Validating name in Resource")
     @ParameterizedTest(name = "#{index} - Test validation name = {0}")
     @CsvFileSource(resources = "/model/resource/name_test.csv", numLinesToSkip = 1)
@@ -35,7 +34,6 @@ public class ResourceTest {
         }
     }
 
-    @NullSource
     @DisplayName("Validating isEnable in Resource")
     @ParameterizedTest(name = "#{index} - Test validation isEnable = {0}")
     @ValueSource(booleans = {true, false})

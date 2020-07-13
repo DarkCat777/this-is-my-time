@@ -38,8 +38,8 @@ public class Task {
     /**
      * Es la descripción de la tarea.
      */
-    @NotBlank(message = "{task.description.notBlank}")
-    @Size(min = 8, max = 128, message = "{task.description.size}")
+    // @NotBlank(message = "{task.description.notBlank}")
+    @Size(min = 0, max = 128, message = "{task.description.size}")
     @Column(nullable = false, length = 128)
     protected String description;
     /**

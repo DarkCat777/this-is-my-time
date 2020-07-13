@@ -23,8 +23,6 @@ public class UserTest {
     @Autowired
     private Validator validator;
 
-    @EmptySource
-    @NullSource
     @DisplayName("Validating username in User")
     @ParameterizedTest(name = "#{index} - Test validation username = {0}")
     @CsvFileSource(resources = "/model/user/username_test.csv", numLinesToSkip = 1)
@@ -39,7 +37,6 @@ public class UserTest {
         }
     }
 
-    @EmptySource
     @DisplayName("Validating password in User")
     @ParameterizedTest(name = "#{index} - Test validation password = {0}")
     @CsvFileSource(resources = "/model/user/password_test.csv", numLinesToSkip = 1)
@@ -54,7 +51,6 @@ public class UserTest {
         }
     }
 
-    @NullSource
     @DisplayName("Validating isEnable in User")
     @ParameterizedTest(name = "#{index} - Test validation isEnable = {0}")
     @ValueSource(booleans = {true, false})

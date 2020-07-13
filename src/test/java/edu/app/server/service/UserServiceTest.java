@@ -25,10 +25,12 @@ public class UserServiceTest {
     @Autowired
     private UserService userService;
 
+    private User user;
+
     @BeforeEach
     @DisplayName("Initialize Mock UserRepository")
     void beforeAll() {
-        User user = new User("erickdmh@outlook.es", "1234567", true);
+        user = new User("erickdmh@outlook.es", "1234567", true);
         Mockito.when(userRepository.findByUsername("erickdmh@outlook.es")).thenReturn(Optional.of(user));
         Mockito.when(userRepository.findById(user.getId())).thenReturn(Optional.of(user));
     }
@@ -50,8 +52,7 @@ public class UserServiceTest {
     @Test
     @DisplayName("Testing method getById()")
     void getByIdTest() {
-        Long id = 1L;
-        User user = userService.getById(id);
-        assertEquals(user, userRepository.findById(id).get());
+        User userGet = userService.getById(user.getId());
+        assertEquals(userGet, user);
     }
 }

@@ -76,6 +76,7 @@ public class UserRepositoryTest {
     }
 
     @Test
+    @DisplayName("Test User save tasks with reference Periodic and Non-Periodic Tasks")
     void testUserWithTask() {
         User user = new User("erickdmh@outlook.es", "983352035edmh", true);
         userRepository.save(user);
@@ -88,5 +89,11 @@ public class UserRepositoryTest {
         user.getTasks().add(periodicTask);
         user.getTasks().add(nonPeriodicTask);
         userRepository.save(user);
+        System.out.println("user = " + user);
+        System.out.println("Tasks: (RUNTIME)");
+        user.getTasks().forEach(System.out::println);
+        System.out.println("Tasks: (RECORDS)");
+        User userRecord = userRepository.getOne(user.getId());
+        userRecord.getTasks().forEach(System.out::println);
     }
 }

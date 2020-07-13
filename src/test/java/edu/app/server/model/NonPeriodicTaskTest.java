@@ -19,7 +19,7 @@ public class NonPeriodicTaskTest {
     private Validator validator;
 
     @Test
-    @DisplayName("Validación de la fecha.")
+    @DisplayName("Validating date.")
     void testInitDateNonPeriodicTask() {
         NonPeriodicTask nonPeriodicTask = new NonPeriodicTask();
         nonPeriodicTask.setInitDate(LocalDate.now());
@@ -32,7 +32,7 @@ public class NonPeriodicTaskTest {
     }
 
     @Test
-    @DisplayName("Validación de el tiempo.")
+    @DisplayName("Validating time.")
     void testInitTimeNonPeriodicTask() {
         NonPeriodicTask nonPeriodicTask = new NonPeriodicTask();
         nonPeriodicTask.setInitTime(LocalTime.now());

@@ -3,8 +3,6 @@ package edu.app.server.model;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.jupiter.params.provider.NullAndEmptySource;
-import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,7 +18,6 @@ public class AuthorityTest {
     @Autowired
     private Validator validator;
 
-    @NullAndEmptySource
     @ParameterizedTest(name = "#{index} - Test validation name = {0}")
     @DisplayName("Validating name in Authority")
     @CsvFileSource(resources = "/model/authority/name_test.csv", numLinesToSkip = 1)
@@ -35,7 +32,6 @@ public class AuthorityTest {
         }
     }
 
-    @NullSource
     @DisplayName("Validating isEnable in Authority")
     @ParameterizedTest(name = "#{index} - Test validation isEnable = {0}")
     @ValueSource(booleans = {true, false})
