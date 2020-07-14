@@ -64,4 +64,10 @@ public class AuthorityService {
             return "Success delete authority";
         }
     }
+
+    @Transactional(readOnly = true)
+    public Authority getByName(String name) {
+        log.info("Buscando autoridad por su nombre: " + name);
+        return this.authorityRepository.findByAuthority(name).orElse(null);
+    }
 }

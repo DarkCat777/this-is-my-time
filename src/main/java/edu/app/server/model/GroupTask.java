@@ -3,7 +3,9 @@ package edu.app.server.model;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -24,6 +26,13 @@ public class GroupTask {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     /**
+     * Es el nombre del grupo de tareas.
+     */
+    @NotBlank(message = "{groupTask.name.notBlank}")
+    @Pattern(regexp = "[a-zA-Z_ ]+", message = "{groupTask.name.pattern}")
+    @Column(nullable = false, length = 64)
+    private String name;
+    /**
      * Es el usuario al cual pertenecen.
      */
     @ManyToOne
@@ -32,10 +41,11 @@ public class GroupTask {
     /**
      * Son las tareas asociadas.
      */
-    @OneToMany
+    @OneToMany(fetch = FetchType.EAGER)
     private Set<Task> tasks = new HashSet<>();
 
-    public GroupTask(User user) {
+    public GroupTask(String name, User user) {
+        this.name = name;
         this.user = user;
     }
 }

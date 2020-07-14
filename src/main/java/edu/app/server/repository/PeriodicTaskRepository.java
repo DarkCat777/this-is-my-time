@@ -7,4 +7,6 @@ import java.util.Optional;
 
 public interface PeriodicTaskRepository extends JpaRepository<PeriodicTask, Long> {
     Optional<PeriodicTask> getById(Long id);
+
+    Optional<PeriodicTask> findByName(String name);
 }
