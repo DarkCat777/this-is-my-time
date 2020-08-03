@@ -1,8 +1,7 @@
 package edu.app.server.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
@@ -21,6 +20,8 @@ import java.util.Set;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString(exclude = {"resources", "users"})
+@EqualsAndHashCode(exclude = {"resources", "users"})
 public class Authority implements GrantedAuthority {
     /**
      * Es el identificador de la tabla Authority en la base de datos el cual es generado de manera automatica.
@@ -49,13 +50,15 @@ public class Authority implements GrantedAuthority {
     /**
      * Este atributo es exclusivo de esta clase java para manejar las relaciones que esta tabla tiene con la tabla de usuarios.
      */
-    @ManyToMany
-    @JoinTable
+    @JsonIgnore
+    @ManyToMany(mappedBy = "authorities")
     private Set<User> users = new HashSet<>();
     /**
      * Este atributo es exclusivo de esta clase java para manejar la relacion que tiene con la tabla recursos.
      */
+    @JsonIgnore
     @ManyToMany
+    @JoinTable
     private Set<Resource> resources = new HashSet<>();
 
     /**

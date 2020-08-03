@@ -1,9 +1,7 @@
 package edu.app.server.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -19,7 +17,8 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString(exclude = {"tasks"})
+@ToString(exclude = {"tasks", "authorities"})
+@EqualsAndHashCode(exclude = {"tasks", "authorities"})
 @Entity
 public class User {
     /**
@@ -59,11 +58,14 @@ public class User {
     /**
      * Es un atributo exclusivo de la clase de java, que representa la relación de la clase con su autoridad respectiva.
      */
-    @ManyToMany(mappedBy = "users")
+    @JsonIgnore
+    @ManyToMany
+    @JoinTable
     private Set<Authority> authorities = new HashSet<>();
     /**
      * Es un atributo exclusivo de la clase de java, que representa la relación de la clase con sus tareas respectivas.
      */
+    @JsonIgnore
     @OneToMany(mappedBy = "user")
     private Set<Task> tasks = new HashSet<>();
 

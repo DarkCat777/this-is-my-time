@@ -1,5 +1,6 @@
 package edu.app.server.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -56,8 +57,8 @@ public class Resource {
     /**
      * Es un atributo exclusivo de la clase java, porque representa la relación con la tabla Authority.
      */
-    @ManyToMany
-    @JoinTable
+    @JsonIgnore
+    @ManyToMany(mappedBy = "resources", fetch = FetchType.EAGER)
     private Set<Authority> authorities = new HashSet<>();
 
     /**

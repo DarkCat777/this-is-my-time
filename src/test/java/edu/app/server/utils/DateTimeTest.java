@@ -1,4 +1,4 @@
-package edu.app.server;
+package edu.app.server.utils;
 
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeAll;

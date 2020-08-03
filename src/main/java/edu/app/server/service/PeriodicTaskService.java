@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-
 @Log4j2
 @Service
 public class PeriodicTaskService {

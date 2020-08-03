@@ -3,31 +3,51 @@ package edu.app.server.controller;
 import edu.app.server.model.User;
 import edu.app.server.service.UserService;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @CrossOrigin("*")
+@RequestMapping("/user")
 public class UserRestController {
-    private UserService userService;
+    private final UserService userService;
 
-    @GetMapping("/users")
-    public List<User> findAll() {
-        return userService.getAllUsers();
+    public UserRestController(UserService userService) {
+        this.userService = userService;
     }
 
-    @PostMapping("/user")
-    @ResponseStatus(HttpStatus.CREATED)
-    public User newUser(@Valid @RequestBody User user) {
-        return userService.saveUser(user);
+    @PreAuthorize("hasAuthority('Administrator')")
+    @GetMapping("/all")
+    public ResponseEntity<List<User>> findAll() {
+        return ResponseEntity.ok(userService.getAllUsers());
     }
 
-    @GetMapping("/users/{id}")
-    public User findOne(@PathVariable @Min(1) Long id) {
-        return userService.getById(id);
+    /*
+        @PutMapping("/new")
+        @ResponseStatus(HttpStatus.CREATED)
+        public User newUser(@Valid @RequestBody User user) {
+            return userService.saveUser(user);
+        }
+    */
+    @PreAuthorize("hasAuthority('Administrator')")
+    @PutMapping("/new")
+    public ResponseEntity<User> addUser(@Valid @RequestBody User user) {
+        User newUser = this.userService.saveUser(user);
+        return ResponseEntity.ok(newUser);
     }
 
+    @PreAuthorize("hasAuthority('Administrator')")
+    @DeleteMapping("/delete/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public void deleteOne(@PathVariable @Min(1) Long id) {
+        User user = new User();
+        user.setId(id);
+        this.userService.deleteUser(user);
+    }
 }

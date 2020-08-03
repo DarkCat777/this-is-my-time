@@ -52,7 +52,13 @@ public class UserService {
     @Transactional(readOnly = true)
     public User getByUsername(String username) {
         log.info("Buscando usuario con el nombre usuario: " + username);
-        return this.userRepository.findByUsername(username).orElse(null);
+        User user = this.userRepository.findByUsername(username).orElse(null);
+        if (user == null) {
+            return null;
+        } else {
+            log.info("Charging authorities: " + user.getAuthorities());
+            return user;
+        }
     }
 
     @Transactional(readOnly = true)
