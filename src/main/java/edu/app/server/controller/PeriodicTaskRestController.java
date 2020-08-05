@@ -3,6 +3,7 @@ package edu.app.server.controller;
 import edu.app.server.model.PeriodicTask;
 import edu.app.server.service.PeriodicTaskService;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -20,19 +21,19 @@ public class PeriodicTaskRestController {
     }
 
     @GetMapping("/all")
-    public List<PeriodicTask> findAll() {
-        return periodicTaskService.getAllPeriodicTask();
+    public ResponseEntity<List<PeriodicTask>> findAll() {
+        return ResponseEntity.ok(this.periodicTaskService.getAllPeriodicTask());
     }
 
     @PutMapping("/new")
     @ResponseStatus(HttpStatus.CREATED)
-    public PeriodicTask newPeriodicTask(@Valid @RequestBody PeriodicTask periodicTask) {
-        return periodicTaskService.savePeriodicTask(periodicTask);
+    public ResponseEntity<PeriodicTask> newPeriodicTask(@Valid @RequestBody PeriodicTask periodicTask) {
+        return ResponseEntity.ok(this.periodicTaskService.savePeriodicTask(periodicTask));
     }
 
     @PostMapping("/get/{id}")
-    public PeriodicTask findOne(@PathVariable @Min(1) Long id) {
-        return periodicTaskService.getById(id);
+    public ResponseEntity<PeriodicTask> findOne(@PathVariable @Min(1) Long id) {
+        return ResponseEntity.ok(this.periodicTaskService.getById(id));
     }
 
     @DeleteMapping("/delete/{id}")

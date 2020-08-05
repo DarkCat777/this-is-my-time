@@ -1,9 +1,9 @@
 package edu.app.server.controller;
 
 import edu.app.server.model.NonPeriodicTask;
-import edu.app.server.model.User;
 import edu.app.server.service.NonPeriodicTaskService;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -21,19 +21,18 @@ public class NonPeriodicTaskRestController {
     }
 
     @GetMapping("/all")
-    public List<NonPeriodicTask> findAll() {
-        return nonPeriodicTaskService.getAllNonPeriodicTask();
+    public ResponseEntity<List<NonPeriodicTask>> findAll() {
+        return ResponseEntity.ok(this.nonPeriodicTaskService.getAllNonPeriodicTask());
     }
 
     @PutMapping("/new")
-    @ResponseStatus(HttpStatus.CREATED)
-    public NonPeriodicTask newNonPeriodicTask(@Valid @RequestBody NonPeriodicTask nonPeriodicTask) {
-        return nonPeriodicTaskService.saveNonPeriodicTask(nonPeriodicTask);
+    public ResponseEntity<NonPeriodicTask> newNonPeriodicTask(@Valid @RequestBody NonPeriodicTask nonPeriodicTask) {
+        return ResponseEntity.ok(nonPeriodicTaskService.saveNonPeriodicTask(nonPeriodicTask));
     }
 
     @PostMapping("/get/{id}")
-    public NonPeriodicTask findOne(@PathVariable @Min(1) Long id) {
-        return nonPeriodicTaskService.getById(id);
+    public ResponseEntity<NonPeriodicTask> findOne(@PathVariable @Min(1) Long id) {
+        return ResponseEntity.ok(this.nonPeriodicTaskService.getById(id));
     }
 
     @DeleteMapping("/delete/{id}")

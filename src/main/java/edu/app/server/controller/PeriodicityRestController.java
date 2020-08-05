@@ -3,6 +3,7 @@ package edu.app.server.controller;
 import edu.app.server.model.Periodicity;
 import edu.app.server.service.PeriodicityService;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -20,19 +21,19 @@ public class PeriodicityRestController {
     }
 
     @GetMapping("/all")
-    public List<Periodicity> findAll() {
-        return periodicityService.getAllPeriodicity();
+    public ResponseEntity<List<Periodicity>> findAll() {
+        return ResponseEntity.ok(this.periodicityService.getAllPeriodicity());
     }
 
     @PutMapping("/new")
     @ResponseStatus(HttpStatus.CREATED)
-    public Periodicity newPeriodicity(@Valid @RequestBody Periodicity periodicity) {
-        return periodicityService.savePeriodicity(periodicity);
+    public ResponseEntity<Periodicity> newPeriodicity(@Valid @RequestBody Periodicity periodicity) {
+        return ResponseEntity.ok(this.periodicityService.savePeriodicity(periodicity));
     }
 
     @PostMapping("/get/{id}")
-    public Periodicity findOne(@PathVariable @Min(1) Long id) {
-        return periodicityService.getById(id);
+    public ResponseEntity<Periodicity> findOne(@PathVariable @Min(1) Long id) {
+        return ResponseEntity.ok(this.periodicityService.getById(id));
     }
 
     @DeleteMapping("/delete/{id}")

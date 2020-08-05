@@ -28,13 +28,6 @@ public class UserRestController {
         return ResponseEntity.ok(userService.getAllUsers());
     }
 
-    /*
-        @PutMapping("/new")
-        @ResponseStatus(HttpStatus.CREATED)
-        public User newUser(@Valid @RequestBody User user) {
-            return userService.saveUser(user);
-        }
-    */
     @PreAuthorize("hasAuthority('Administrator')")
     @PutMapping("/new")
     public ResponseEntity<User> addUser(@Valid @RequestBody User user) {

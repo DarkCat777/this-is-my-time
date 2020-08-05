@@ -3,6 +3,7 @@ package edu.app.server.controller;
 import edu.app.server.model.Authority;
 import edu.app.server.service.AuthorityService;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -20,19 +21,18 @@ public class AuthorityRestController {
     }
 
     @GetMapping("/all")
-    public List<Authority> getAll() {
-        return authorityService.getAllAuthorities();
+    public ResponseEntity<List<Authority>> getAll() {
+        return ResponseEntity.ok(this.authorityService.getAllAuthorities());
     }
 
     @PutMapping("/new")
-    @ResponseStatus(HttpStatus.CREATED)
-    public Authority newAuthority(@Valid @RequestBody Authority user) {
-        return authorityService.saveAuthority(user);
+    public ResponseEntity<Authority> newAuthority(@Valid @RequestBody Authority user) {
+        return ResponseEntity.ok(this.authorityService.saveAuthority(user));
     }
 
     @PostMapping("/get/{id}")
-    public Authority findOne(@PathVariable @Min(1) Long id) {
-        return authorityService.getById(id);
+    public ResponseEntity<Authority> findOne(@PathVariable @Min(1) Long id) {
+        return ResponseEntity.ok(this.authorityService.getById(id));
     }
 
     @DeleteMapping("/delete/{id}")
