@@ -25,102 +25,6 @@
       <point x="526.6676587301588" y="362.0" />
       <point x="40.57142857142861" y="70.5" />
     </edge>
-    <edge source="edu.app.server.model.User" target="edu.app.server.model.Task">
-      <point x="0.0" y="-81.5" />
-      <point x="355.55505952380963" y="352.0" />
-      <point x="425.2390873015873" y="352.0" />
-      <point x="-60.85714285714283" y="70.5" />
-    </edge>
-    <edge source="edu.app.server.model.Resource" target="edu.app.server.model.Authority">
-      <point x="-23.75" y="70.5" />
-      <point x="211.72123015873012" y="166.0" />
-      <point x="184.59623015873012" y="166.0" />
-      <point x="45.5" y="-70.5" />
-    </edge>
-    <edge source="edu.app.server.model.Task" target="edu.app.server.model.State">
-      <point x="35.5" y="-70.5" />
-      <point x="0.0" y="59.5" />
-    </edge>
-    <edge source="edu.app.server.model.Periodicity" target="edu.app.server.model.PeriodicityType">
-      <point x="56.75" y="-70.5" />
-      <point x="846.7212301587301" y="166.0" />
-      <point x="830.3943452380953" y="166.0" />
-      <point x="38.25" y="59.5" />
-    </edge>
-    <edge source="edu.app.server.model.Task" target="edu.app.server.model.User">
-      <point x="-40.571428571428555" y="70.5" />
-      <point x="445.52480158730157" y="362.0" />
-      <point x="393.55505952380963" y="362.0" />
-      <point x="38.0" y="-81.5" />
-    </edge>
-    <edge source="edu.app.server.model.ResourceTest" target="edu.app.server.model.Resource">
-      <point x="-36.25" y="-26.5" />
-      <point x="286.3462301587301" y="166.0" />
-      <point x="259.2212301587301" y="166.0" />
-      <point x="23.75" y="70.5" />
-    </edge>
-    <edge source="edu.app.server.model.PeriodicTask" target="edu.app.server.model.Periodicity">
-      <point x="51.0" y="-26.5" />
-      <point x="0.0" y="70.5" />
-    </edge>
-    <edge source="edu.app.server.model.GroupTask" target="edu.app.server.model.User">
-      <point x="0.0" y="-48.5" />
-      <point x="433.3462301587301" y="585.0" />
-      <point x="393.55505952380963" y="585.0" />
-      <point x="38.0" y="81.5" />
-    </edge>
-    <edge source="edu.app.server.model.Authority" target="edu.app.server.model.User">
-      <point x="68.25" y="70.5" />
-      <point x="207.34623015873012" y="362.0" />
-      <point x="317.55505952380963" y="362.0" />
-      <point x="-38.0" y="-81.5" />
-    </edge>
-    <edge source="edu.app.server.model.User" target="edu.app.server.model.Authority">
-      <point x="-76.0" y="-81.5" />
-      <point x="279.55505952380963" y="372.0" />
-      <point x="161.84623015873012" y="372.0" />
-      <point x="22.75" y="70.5" />
-    </edge>
-    <edge source="edu.app.server.model.NonPeriodicTask" target="edu.app.server.model.User">
-      <point x="-57.375" y="-37.5" />
-      <point x="538.9712301587301" y="575.0" />
-      <point x="431.55505952380963" y="575.0" />
-      <point x="76.0" y="81.5" />
-    </edge>
-    <edge source="edu.app.server.model.NonPeriodicTask" target="edu.app.server.model.State">
-      <point x="57.375" y="-37.5" />
-      <point x="653.7212301587301" y="595.0" />
-      <point x="626.4712301587301" y="595.0" />
-      <point x="626.4712301587301" y="166.0" />
-      <point x="552.2628968253969" y="166.0" />
-      <point x="30.666666666666686" y="59.5" />
-    </edge>
-    <edge source="edu.app.server.model.GroupTask" target="edu.app.server.model.Task">
-      <point x="44.333333333333314" y="-48.5" />
-      <point x="477.6795634920635" y="595.0" />
-      <point x="487.3214285714286" y="595.0" />
-      <point x="487.3214285714286" y="372.0" />
-      <point x="486.0962301587301" y="372.0" />
-      <point x="0.0" y="70.5" />
-    </edge>
-    <edge source="edu.app.server.model.AuthorityTest" target="edu.app.server.model.Authority">
-      <point x="36.25" y="-26.5" />
-      <point x="108.75" y="372.0" />
-      <point x="116.34623015873012" y="372.0" />
-      <point x="-22.75" y="70.5" />
-    </edge>
-    <edge source="edu.app.server.model.UserTest" target="edu.app.server.model.User">
-      <point x="-36.25" y="-37.5" />
-      <point x="238.09623015873012" y="595.0" />
-      <point x="279.55505952380963" y="595.0" />
-      <point x="-76.0" y="81.5" />
-    </edge>
-    <edge source="edu.app.server.model.Authority" target="edu.app.server.model.Resource">
-      <point x="-45.5" y="-70.5" />
-      <point x="93.59623015873012" y="166.0" />
-      <point x="164.22123015873012" y="166.0" />
-      <point x="-71.25" y="70.5" />
-    </edge>
     <edge source="edu.app.server.model.PeriodicTask" target="edu.app.server.model.Task">
       <point x="-51.0" y="-26.5" />
       <point x="687.9712301587301" y="352.0" />
@@ -128,7 +32,7 @@
       <point x="60.85714285714289" y="70.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7336956521739131" x="458.0" y="358.0" />
+  <settings layout="Hierarchic Group" zoom="0.7152317880794702" x="452.0" y="367.5" />
   <SelectedNodes>
     <node>edu.app.server.model.Resource</node>
   </SelectedNodes>

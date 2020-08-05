@@ -3,7 +3,6 @@ package edu.app.server.error;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -16,10 +15,13 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
+/**
+ * Es el controlador encargado de recopilar los errores en formato ApiError y enviarlos en respuesta.
+ *
+ * @see ApiError
+ */
 @ControllerAdvice
 public class ErrorRestController extends ResponseEntityExceptionHandler {
 
@@ -50,6 +52,14 @@ public class ErrorRestController extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(apiError, new HttpHeaders(), apiError.getStatus());
     }
 
+    /**
+     * Se encarga de transformar los errores de validación y estructurarlos y enviarlos al usuario en caso de que llene los datos mal.
+     *
+     * @param ex      Excepción que es lanzada por las validaciones incorrectas.
+     * @param request Es el la respuesta enviada por el cliente.
+     * @return Es un respoense entity con el modelo de ApiError.
+     * @see ApiError
+     */
     @ExceptionHandler({ConstraintViolationException.class})
     public ResponseEntity<Object> handleConstraintViolation(
             ConstraintViolationException ex, WebRequest request) {
@@ -58,7 +68,6 @@ public class ErrorRestController extends ResponseEntityExceptionHandler {
             errors.add(violation.getRootBeanClass().getName() + " " +
                     violation.getPropertyPath() + ": " + violation.getMessage());
         }
-
         ApiError apiError =
                 new ApiError(HttpStatus.BAD_REQUEST, ex.getLocalizedMessage(), errors);
         return new ResponseEntity<>(
@@ -70,25 +79,9 @@ public class ErrorRestController extends ResponseEntityExceptionHandler {
             MethodArgumentTypeMismatchException ex, WebRequest request) {
         String error =
                 ex.getName() + " should be of type " + ex.getRequiredType().getName();
-
         ApiError apiError =
                 new ApiError(HttpStatus.BAD_REQUEST, ex.getLocalizedMessage(), error);
         return new ResponseEntity<>(
                 apiError, new HttpHeaders(), apiError.getStatus());
     }
-
-/*
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public Map<String, String> handleValidationExceptions(
-            MethodArgumentNotValidException ex) {
-        Map<String, String> errors = new HashMap<>();
-        ex.getBindingResult().getAllErrors().forEach(error -> {
-            String fieldName = ((FieldError) error).getField();
-            String errorMessage = error.getDefaultMessage();
-            errors.put(fieldName, errorMessage);
-        });
-        return errors;
-    }
-    */
 }

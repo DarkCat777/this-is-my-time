@@ -64,8 +64,9 @@ public class Resource {
     /**
      * Este constructor inicializa los valores que no se inicializan de forma automatica.
      *
-     * @param resource Es la url del recurso.
-     * @param isEnable Es el estado del recurso.
+     * @param httpMethod Es el metodo Http que se usa.
+     * @param resource   Es la url del recurso.
+     * @param isEnable   Es el estado del recurso.
      */
     public Resource(String resource, HttpMethod httpMethod, Boolean isEnable) {
         this.resource = resource;

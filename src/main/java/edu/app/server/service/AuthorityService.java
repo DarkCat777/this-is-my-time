@@ -8,11 +8,27 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * Es el modulo de servicio que implementa las logicas de negocio o transformaciones a los datos de Authority.
+ *
+ * @author Erick David Carpio Hachiri
+ * @see Authority
+ */
 @Log4j2
 @Service
 public class AuthorityService {
+    /**
+     * Es el repositorio de Authority.
+     *
+     * @see AuthorityRepository
+     */
     private final AuthorityRepository authorityRepository;
 
+    /**
+     * Contructor que injecta las dependencias de Spring container.
+     *
+     * @param authorityRepository Es el repositorio que sera injectado por Spring.
+     */
     public AuthorityService(AuthorityRepository authorityRepository) {
         this.authorityRepository = authorityRepository;
     }

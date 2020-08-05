@@ -62,6 +62,7 @@ public class Task {
      * @param name        Es el nombre de la tarea.
      * @param description Es la descripción de la tarea.
      * @param state       Es el estado de la tarea.
+     * @param user Es el usuario propietario.
      */
     public Task(String name, String description, State state, User user) {
         this.name = name;
