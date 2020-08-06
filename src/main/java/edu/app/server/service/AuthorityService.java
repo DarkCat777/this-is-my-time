@@ -33,24 +33,48 @@ public class AuthorityService {
         this.authorityRepository = authorityRepository;
     }
 
+    /**
+     * Obtiene la autoridad mediante su id, mediante una transacción de solo lectura.
+     *
+     * @param id Es el id del Authority.
+     * @return Retorna el valor existe o no existe que es retornado por el repositorio.
+     * @see AuthorityRepository
+     */
     @Transactional(readOnly = true)
     public Authority getById(Long id) {
         log.info("Buscando autoridad por su id: " + id);
         return this.authorityRepository.findById(id).orElse(null);
     }
 
+    /**
+     * Obtiene todas las autoridades, mediante una transacción de solo lectura.
+     *
+     * @return Son todas las autoridades realizadas por el repositorio.
+     */
     @Transactional(readOnly = true)
     public List<Authority> getAllAuthorities() {
         log.info("Obteniendo todos las autoridades.");
         return this.authorityRepository.findAll();
     }
 
+    /**
+     * Guarda la autoridad, mediante una transacción de escritura.
+     *
+     * @param authority Es la autoridad a guardar.
+     * @return Es la autoridad con el id asignado en la base de datos.
+     */
     @Transactional
     public Authority saveAuthority(Authority authority) {
         log.info("Guardando autoridad" + authority.toString());
         return this.authorityRepository.save(authority);
     }
 
+    /**
+     * Actualiza la autoridad, mediante una transacción de escritura.
+     *
+     * @param authority Es la autoridad a actualizar.
+     * @return Es la autoridad con el los valores actualizados en la base de datos.
+     */
     @Transactional
     public Authority updateAuthority(Authority authority) {
         log.info("Buscando autoridad.");
@@ -68,6 +92,12 @@ public class AuthorityService {
         }
     }
 
+    /**
+     * Elimina la autoridad, mediante una transacción de escritura.
+     *
+     * @param authority Es la autoridad a eliminar.
+     * @return Es una cadena con la confirnación.
+     */
     @Transactional
     public String deleteAuthority(Authority authority) {
         Authority oldAuthority = this.authorityRepository.findById(authority.getId()).orElse(null);
@@ -81,6 +111,12 @@ public class AuthorityService {
         }
     }
 
+    /**
+     * Realiza la busqueda por nombre, mediante una transacción de solo lectura.
+     *
+     * @param name Es el nombre de la autoridad.
+     * @return Es la autoridad que se busco.
+     */
     @Transactional(readOnly = true)
     public Authority getByName(String name) {
         log.info("Buscando autoridad por su nombre: " + name);
