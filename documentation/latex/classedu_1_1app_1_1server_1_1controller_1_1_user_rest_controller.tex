@@ -1,0 +1,88 @@
+\hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+controller.\+User\+Rest\+Controller}
+\label{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller}\index{edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_ac0d22d0231c7d2875cdd1174687e6133}{User\+Rest\+Controller}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service}{User\+Service}} user\+Service)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} $>$ $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a2a67fa6beed047cc14fc090f0738f8a2}{find\+All}} ()
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a2f7bb01434d6c5ffaa63fb05020a396e}{add\+User}} (@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} user)
+\item 
+void \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a37148b53eac288ef418a5dbc3e7741ec}{delete\+One}} (@Path\+Variable @Min(1) Long id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el controlador Rest de User y admite conexiones con cualquier IP.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+User\+Service 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_ac0d22d0231c7d2875cdd1174687e6133}\label{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_ac0d22d0231c7d2875cdd1174687e6133}} 
+\index{edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}!UserRestController@{UserRestController}}
+\index{UserRestController@{UserRestController}!edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}}
+\doxysubsubsection{\texorpdfstring{UserRestController()}{UserRestController()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+controller.\+User\+Rest\+Controller.\+User\+Rest\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service}{User\+Service}}}]{user\+Service }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user\+Service} & Es el servicio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a2f7bb01434d6c5ffaa63fb05020a396e}\label{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a2f7bb01434d6c5ffaa63fb05020a396e}} 
+\index{edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}!addUser@{addUser}}
+\index{addUser@{addUser}!edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}}
+\doxysubsubsection{\texorpdfstring{addUser()}{addUser()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}$>$ edu.\+app.\+server.\+controller.\+User\+Rest\+Controller.\+add\+User (\begin{DoxyParamCaption}\item[{@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+Es el servicio Rest que crea un nuevo usuario mediante el metodo P\+UT.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Es el usuario que se guardara en la base de datos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a37148b53eac288ef418a5dbc3e7741ec}\label{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a37148b53eac288ef418a5dbc3e7741ec}} 
+\index{edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}!deleteOne@{deleteOne}}
+\index{deleteOne@{deleteOne}!edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}}
+\doxysubsubsection{\texorpdfstring{deleteOne()}{deleteOne()}}
+{\footnotesize\ttfamily void edu.\+app.\+server.\+controller.\+User\+Rest\+Controller.\+delete\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que elimina un usuario, mediante el metodo D\+E\+L\+E\+TE.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el id del usuario que se quiere eliminar. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a2a67fa6beed047cc14fc090f0738f8a2}\label{classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_a2a67fa6beed047cc14fc090f0738f8a2}} 
+\index{edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}!findAll@{findAll}}
+\index{findAll@{findAll}!edu.app.server.controller.UserRestController@{edu.app.server.controller.UserRestController}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily Response\+Entity$<$List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}$>$ $>$ edu.\+app.\+server.\+controller.\+User\+Rest\+Controller.\+find\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Es el servicio Rest que devuelve todos los usuarios mediante el metodo G\+ET.
+
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/controller/User\+Rest\+Controller.\+java\end{DoxyCompactItemize}

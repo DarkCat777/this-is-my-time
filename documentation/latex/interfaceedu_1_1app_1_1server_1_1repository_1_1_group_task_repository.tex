@@ -1,0 +1,74 @@
+\hypertarget{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository}{}\doxysection{Referencia de la Interfaz edu.\+app.\+server.\+repository.\+Group\+Task\+Repository}
+\label{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository}\index{edu.app.server.repository.GroupTaskRepository@{edu.app.server.repository.GroupTaskRepository}}
+Diagrama de herencias de edu.\+app.\+server.\+repository.\+Group\+Task\+Repository\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository}
+\end{center}
+\end{figure}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} $>$ \mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_a6ae0f15b417f438f14fd1b3f746aa31e}{get\+By\+Id}} (Long id)
+\item 
+Optional$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} $>$ \mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_aa6308f5de35ce7a6e01f30775f78f4e5}{find\+By\+Name}} (String name)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el repositorio de Group\+Task el cual se encarga de realizar las operaciones de la base de datos. Hace uso de Jpa\+Repository para poder extender ciertos metodos ya programados.
+
+\begin{DoxySeeAlso}{Ver también}
+Jpa\+Repository 
+
+Group\+Task 
+\end{DoxySeeAlso}
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_aa6308f5de35ce7a6e01f30775f78f4e5}\label{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_aa6308f5de35ce7a6e01f30775f78f4e5}} 
+\index{edu.app.server.repository.GroupTaskRepository@{edu.app.server.repository.GroupTaskRepository}!findByName@{findByName}}
+\index{findByName@{findByName}!edu.app.server.repository.GroupTaskRepository@{edu.app.server.repository.GroupTaskRepository}}
+\doxysubsubsection{\texorpdfstring{findByName()}{findByName()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}}$>$ edu.\+app.\+server.\+repository.\+Group\+Task\+Repository.\+find\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Busca un Group\+Task por su nombre.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em name} & Es el nombre del Group\+Task que se desea buscar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es un valor opcional puede o no puede estar.(null or notnull) 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Optional 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_a6ae0f15b417f438f14fd1b3f746aa31e}\label{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_a6ae0f15b417f438f14fd1b3f746aa31e}} 
+\index{edu.app.server.repository.GroupTaskRepository@{edu.app.server.repository.GroupTaskRepository}!getById@{getById}}
+\index{getById@{getById}!edu.app.server.repository.GroupTaskRepository@{edu.app.server.repository.GroupTaskRepository}}
+\doxysubsubsection{\texorpdfstring{getById()}{getById()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}}$>$ edu.\+app.\+server.\+repository.\+Group\+Task\+Repository.\+get\+By\+Id (\begin{DoxyParamCaption}\item[{Long}]{id }\end{DoxyParamCaption})}
+
+Busca un Group\+Task por su id.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el id del registro del cual queremos los datos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es un valor opcional puede o no puede estar.(null or notnull) 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Optional 
+\end{DoxySeeAlso}
+
+
+La documentación para este interfaz fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/repository/Group\+Task\+Repository.\+java\end{DoxyCompactItemize}

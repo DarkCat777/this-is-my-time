@@ -1,0 +1,142 @@
+\hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+service.\+Periodicity\+Service}
+\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service}\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_acbd6074b13599e857fcf21bfe551b2e8}{Periodicity\+Service}} (\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository}{Periodicity\+Repository}} periodicity\+Repository)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_abe9396085b88ff5d6e129c999ff763c8}{get\+By\+Id}} (Long id)
+\item 
+List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_acd3c4e0c7241f51ea4ee7f65e975b635}{get\+All\+Periodicity}} ()
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_ace869e623f9a7fefd398d94e1ec4cac9}{save\+Periodicity}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} periodicity)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_a35feb1e3376822789240211439ef9807}{update\+Periodicity}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} periodicity)
+\item 
+String \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_a04569b2917e69ef0aa433d68fb1ce8b3}{delete\+Periodicity}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} periodicity)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el modulo de servicio que implementa las logicas de negocio o transformaciones a los datos de Periodicity.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_acbd6074b13599e857fcf21bfe551b2e8}\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_acbd6074b13599e857fcf21bfe551b2e8}} 
+\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}!PeriodicityService@{PeriodicityService}}
+\index{PeriodicityService@{PeriodicityService}!edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsubsection{\texorpdfstring{PeriodicityService()}{PeriodicityService()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+service.\+Periodicity\+Service.\+Periodicity\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository}{Periodicity\+Repository}}}]{periodicity\+Repository }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodicity\+Repository} & Es el repositorio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_a04569b2917e69ef0aa433d68fb1ce8b3}\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_a04569b2917e69ef0aa433d68fb1ce8b3}} 
+\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}!deletePeriodicity@{deletePeriodicity}}
+\index{deletePeriodicity@{deletePeriodicity}!edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsubsection{\texorpdfstring{deletePeriodicity()}{deletePeriodicity()}}
+{\footnotesize\ttfamily String edu.\+app.\+server.\+service.\+Periodicity\+Service.\+delete\+Periodicity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}}]{periodicity }\end{DoxyParamCaption})}
+
+Elimina la periodicidad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodicity} & Es la periodicidad a eliminar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es una cadena con la confirnación. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_acd3c4e0c7241f51ea4ee7f65e975b635}\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_acd3c4e0c7241f51ea4ee7f65e975b635}} 
+\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}!getAllPeriodicity@{getAllPeriodicity}}
+\index{getAllPeriodicity@{getAllPeriodicity}!edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsubsection{\texorpdfstring{getAllPeriodicity()}{getAllPeriodicity()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}$>$ edu.\+app.\+server.\+service.\+Periodicity\+Service.\+get\+All\+Periodicity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtiene todas las periodicidades, mediante una transacción de solo lectura.
+
+\begin{DoxyReturn}{Devuelve}
+Son todas las periodicidades realizadas por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_abe9396085b88ff5d6e129c999ff763c8}\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_abe9396085b88ff5d6e129c999ff763c8}} 
+\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}!getById@{getById}}
+\index{getById@{getById}!edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsubsection{\texorpdfstring{getById()}{getById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} edu.\+app.\+server.\+service.\+Periodicity\+Service.\+get\+By\+Id (\begin{DoxyParamCaption}\item[{Long}]{id }\end{DoxyParamCaption})}
+
+Obtiene la Periodicity mediante su id, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el id del Periodicity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Retorna el valor existe o no existe que es retornado por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_ace869e623f9a7fefd398d94e1ec4cac9}\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_ace869e623f9a7fefd398d94e1ec4cac9}} 
+\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}!savePeriodicity@{savePeriodicity}}
+\index{savePeriodicity@{savePeriodicity}!edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsubsection{\texorpdfstring{savePeriodicity()}{savePeriodicity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} edu.\+app.\+server.\+service.\+Periodicity\+Service.\+save\+Periodicity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}}]{periodicity }\end{DoxyParamCaption})}
+
+Guarda la periodicidad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodicity} & Es la periodicidad a guardar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la periodicidad con el id asignado en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_a35feb1e3376822789240211439ef9807}\label{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service_a35feb1e3376822789240211439ef9807}} 
+\index{edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}!updatePeriodicity@{updatePeriodicity}}
+\index{updatePeriodicity@{updatePeriodicity}!edu.app.server.service.PeriodicityService@{edu.app.server.service.PeriodicityService}}
+\doxysubsubsection{\texorpdfstring{updatePeriodicity()}{updatePeriodicity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} edu.\+app.\+server.\+service.\+Periodicity\+Service.\+update\+Periodicity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}}]{periodicity }\end{DoxyParamCaption})}
+
+Actualiza la periodicidad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodicity} & Es la periodicidad a actualizar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la periodicidad con el los valores actualizados en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity\+Repository 
+\end{DoxySeeAlso}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/service/Periodicity\+Service.\+java\end{DoxyCompactItemize}

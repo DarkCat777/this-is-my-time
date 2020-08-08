@@ -1,0 +1,106 @@
+\hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+controller.\+Authority\+Rest\+Controller}
+\label{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller}\index{edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_ad52e2e85bf89cb73975dc6dac6cea6ba}{Authority\+Rest\+Controller}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service}{Authority\+Service}} authority\+Service)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} $>$ $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a1ee7281f91485bcaf064f91c01701e16}{get\+All}} ()
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a040affbade914e42ec2104958a7d4216}{new\+Authority}} (@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} authority)
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_ad183130f2aeb7a469ec78d0281d2598f}{find\+One}} (@Path\+Variable @Min(1) Long id)
+\item 
+void \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a321b5b1120a1faa4ab36784388195569}{delete\+One}} (@Path\+Variable @Min(1) Long id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el controlador Rest de Authority y admite conexiones con cualquier IP.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Service 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_ad52e2e85bf89cb73975dc6dac6cea6ba}\label{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_ad52e2e85bf89cb73975dc6dac6cea6ba}} 
+\index{edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}!AuthorityRestController@{AuthorityRestController}}
+\index{AuthorityRestController@{AuthorityRestController}!edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}}
+\doxysubsubsection{\texorpdfstring{AuthorityRestController()}{AuthorityRestController()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+controller.\+Authority\+Rest\+Controller.\+Authority\+Rest\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service}{Authority\+Service}}}]{authority\+Service }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em authority\+Service} & Es el servicio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a321b5b1120a1faa4ab36784388195569}\label{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a321b5b1120a1faa4ab36784388195569}} 
+\index{edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}!deleteOne@{deleteOne}}
+\index{deleteOne@{deleteOne}!edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}}
+\doxysubsubsection{\texorpdfstring{deleteOne()}{deleteOne()}}
+{\footnotesize\ttfamily void edu.\+app.\+server.\+controller.\+Authority\+Rest\+Controller.\+delete\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que elimina una autoridad mediante el metodo D\+E\+L\+E\+TE.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador de la autoridad. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_ad183130f2aeb7a469ec78d0281d2598f}\label{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_ad183130f2aeb7a469ec78d0281d2598f}} 
+\index{edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}!findOne@{findOne}}
+\index{findOne@{findOne}!edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}}
+\doxysubsubsection{\texorpdfstring{findOne()}{findOne()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}$>$ edu.\+app.\+server.\+controller.\+Authority\+Rest\+Controller.\+find\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que busca una autoridad por id su mediante el metodo P\+O\+ST.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador con el que se buscara la autoridad. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a1ee7281f91485bcaf064f91c01701e16}\label{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a1ee7281f91485bcaf064f91c01701e16}} 
+\index{edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}!getAll@{getAll}}
+\index{getAll@{getAll}!edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}}
+\doxysubsubsection{\texorpdfstring{getAll()}{getAll()}}
+{\footnotesize\ttfamily Response\+Entity$<$List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}$>$ $>$ edu.\+app.\+server.\+controller.\+Authority\+Rest\+Controller.\+get\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Es el servicio Rest que devuelve todos las autoridades mediante el metodo G\+ET.
+
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a040affbade914e42ec2104958a7d4216}\label{classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_a040affbade914e42ec2104958a7d4216}} 
+\index{edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}!newAuthority@{newAuthority}}
+\index{newAuthority@{newAuthority}!edu.app.server.controller.AuthorityRestController@{edu.app.server.controller.AuthorityRestController}}
+\doxysubsubsection{\texorpdfstring{newAuthority()}{newAuthority()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}$>$ edu.\+app.\+server.\+controller.\+Authority\+Rest\+Controller.\+new\+Authority (\begin{DoxyParamCaption}\item[{@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}}]{authority }\end{DoxyParamCaption})}
+
+Es el servicio Rest que crea una nueva autoridad mediante el metodo P\+UT.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em authority} & Es la autoridad que se guardara. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/controller/Authority\+Rest\+Controller.\+java\end{DoxyCompactItemize}

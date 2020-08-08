@@ -50,6 +50,7 @@ public class AuthorityService {
      * Obtiene todas las autoridades, mediante una transacción de solo lectura.
      *
      * @return Son todas las autoridades realizadas por el repositorio.
+     * @see AuthorityRepository
      */
     @Transactional(readOnly = true)
     public List<Authority> getAllAuthorities() {
@@ -62,6 +63,7 @@ public class AuthorityService {
      *
      * @param authority Es la autoridad a guardar.
      * @return Es la autoridad con el id asignado en la base de datos.
+     * @see AuthorityRepository
      */
     @Transactional
     public Authority saveAuthority(Authority authority) {
@@ -74,6 +76,7 @@ public class AuthorityService {
      *
      * @param authority Es la autoridad a actualizar.
      * @return Es la autoridad con el los valores actualizados en la base de datos.
+     * @see AuthorityRepository
      */
     @Transactional
     public Authority updateAuthority(Authority authority) {
@@ -97,6 +100,7 @@ public class AuthorityService {
      *
      * @param authority Es la autoridad a eliminar.
      * @return Es una cadena con la confirnación.
+     * @see AuthorityRepository
      */
     @Transactional
     public String deleteAuthority(Authority authority) {
@@ -116,6 +120,7 @@ public class AuthorityService {
      *
      * @param name Es el nombre de la autoridad.
      * @return Es la autoridad que se busco.
+     * @see AuthorityRepository
      */
     @Transactional(readOnly = true)
     public Authority getByName(String name) {

@@ -3,39 +3,501 @@
   <ID>JAVA</ID>
   <OriginalElement>edu.app.server.model</OriginalElement>
   <nodes>
-    <node x="140.47123015873012" y="0.0">edu.app.server.model.Resource</node>
-    <node x="201.84623015873012" y="626.0">edu.app.server.model.UserTest</node>
-    <node x="48.09623015873012" y="191.0">edu.app.server.model.Authority</node>
-    <node x="519.8462301587301" y="626.0">edu.app.server.model.NonPeriodicTask</node>
-    <node x="715.6443452380953" y="11.0">edu.app.server.model.PeriodicityType</node>
-    <node x="636.9712301587301" y="447.0">edu.app.server.model.PeriodicTask</node>
-    <node x="676.4712301587301" y="191.0">edu.app.server.model.Periodicity</node>
-    <node x="250.09623015873012" y="235.0">edu.app.server.model.ResourceTest</node>
-    <node x="415.0962301587301" y="191.0">edu.app.server.model.Task</node>
-    <node x="260.55505952380963" y="392.0">edu.app.server.model.User</node>
-    <node x="475.5962301587301" y="11.0">edu.app.server.model.State</node>
-    <node x="0.0" y="447.0">edu.app.server.model.AuthorityTest</node>
-    <node x="366.8462301587301" y="615.0">edu.app.server.model.GroupTask</node>
+    <node x="16.060702838828547" y="957.0">edu.app.server.repository.PeriodicityRepository</node>
+    <node x="2709.8825091575095" y="1500.0">edu.app.server.service.NonPeriodicTaskService</node>
+    <node x="740.4752690018319" y="957.0">edu.app.server.repository.AuthorityRepository</node>
+    <node x="1430.507509157509" y="934.0">edu.app.server.service.UserService</node>
+    <node x="877.6325091575092" y="202.0">edu.app.server.model.Authority</node>
+    <node x="32.06070283882855" y="1178.0">edu.app.server.service.PeriodicityService</node>
+    <node x="360.22526900183175" y="1178.0">edu.app.server.service.ResourceService</node>
+    <node x="665.8086023351651" y="1178.0">edu.app.server.service.AuthorityService</node>
+    <node x="2872.201459478022" y="945.0">edu.app.server.model.NonPeriodicTask</node>
+    <node x="0.0" y="1511.0">edu.app.server.controller.PeriodicityRestController</node>
+    <node x="0.0" y="1917.0">edu.app.server.error.ErrorRestController</node>
+    <node x="2070.257509157509" y="1190.0">edu.app.server.repository.GroupTaskRepository</node>
+    <node x="543.2500000000001" y="1511.0">edu.app.server.controller.AuthorityRestController</node>
+    <node x="82.373906822344" y="678.0">edu.app.server.model.Periodicity</node>
+    <node x="2778.1968063186805" y="1670.0">edu.app.server.controller.NonPeriodicTaskRestController</node>
+    <node x="2386.882509157509" y="1500.0">edu.app.server.service.PeriodicTaskService</node>
+    <node x="2456.132509157509" y="1190.0">edu.app.server.repository.PeriodicTaskRepository</node>
+    <node x="2403.399393315019" y="678.0">edu.app.server.model.Task</node>
+    <node x="26.5" y="1769.0">edu.app.server.error.ApiError</node>
+    <node x="2002.5075091575093" y="1500.0">edu.app.server.service.GroupTaskService</node>
+    <node x="2038.195009157509" y="404.0">edu.app.server.model.User</node>
+    <node x="1833.257509157509" y="1178.0">edu.app.server.config.UserDetailServiceImpl</node>
+    <node x="576.4658424908424" y="0.0">edu.app.server.model.Resource</node>
+    <node x="2358.132509157509" y="1670.0">edu.app.server.controller.PeriodicTaskRestController</node>
+    <node x="2101.132509157509" y="1670.0">edu.app.server.controller.GroupTaskRestController</node>
+    <node x="1005.2847928113557" y="890.0">edu.app.server.config.Constants</node>
+    <node x="474.0" y="1769.0">edu.app.server.config.SecurityData</node>
+    <node x="2719.632509157509" y="1190.0">edu.app.server.repository.NonPeriodicTaskRepository</node>
+    <node x="1621.257509157509" y="1189.0">edu.app.server.controller.UserRestController</node>
+    <node x="111.873906822344" y="426.0">edu.app.server.model.PeriodicityType</node>
+    <node x="2345.2222928113556" y="956.0">edu.app.server.model.PeriodicTask</node>
+    <node x="795.2500000000001" y="1456.0">edu.app.server.config.SecurityConfig</node>
+    <node x="1530.757509157509" y="723.0">edu.app.server.repository.UserRepository</node>
+    <node x="1335.757509157509" y="1178.0">edu.app.server.config.JWTAuthorizationFilter</node>
+    <node x="245.0" y="1769.0">edu.app.server.config.ValidationMessage</node>
+    <node x="435.55860233516523" y="957.0">edu.app.server.repository.ResourceRepository</node>
+    <node x="1005.7575091575092" y="1156.0">edu.app.server.config.JWTAuthenticationFilter</node>
+    <node x="2499.549393315019" y="426.0">edu.app.server.model.State</node>
+    <node x="2159.007509157509" y="923.0">edu.app.server.model.GroupTask</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="edu.app.server.model.NonPeriodicTask" target="edu.app.server.model.Task">
-      <point x="19.125" y="-37.5" />
-      <point x="615.4712301587301" y="362.0" />
-      <point x="526.6676587301588" y="362.0" />
-      <point x="40.57142857142861" y="70.5" />
+    <edge source="edu.app.server.service.ResourceService" target="edu.app.server.repository.ResourceRepository">
+      <point x="85.66666666666652" y="-38.0" />
+      <point x="574.3919356684983" y="1136.0" />
+      <point x="579.5586023351652" y="1136.0" />
+      <point x="48.0" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.config.JWTAuthorizationFilter" target="edu.app.server.service.UserService">
+      <point x="84.0" y="-38.0" />
+      <point x="1531.757509157509" y="1136.0" />
+      <point x="1539.007509157509" y="1136.0" />
+      <point x="-46.5" y="49.0" />
+    </edge>
+    <edge source="edu.app.server.controller.UserRestController" target="edu.app.server.model.User">
+      <point x="72.0" y="-27.0" />
+      <point x="1789.257509157509" y="1136.0" />
+      <point x="1813.0785599816859" y="1136.0" />
+      <point x="1813.0785599816859" y="648.0" />
+      <point x="2112.8378663003664" y="648.0" />
+      <point x="-20.35714285714289" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.repository.ResourceRepository" target="edu.app.server.model.Resource">
+      <point x="0.0" y="-26.0" />
+      <point x="531.5586023351651" y="172.0" />
+      <point x="633.4658424908424" y="172.0" />
+      <point x="-38.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.service.UserService">
+      <point x="142.08333333333348" y="-82.0" />
+      <point x="1092.3333333333335" y="1436.0" />
+      <point x="1591.007509157509" y="1436.0" />
+      <point x="1591.007509157509" y="1136.0" />
+      <point x="1601.007509157509" y="1136.0" />
+      <point x="15.5" y="49.0" />
+    </edge>
+    <edge source="edu.app.server.model.Resource" target="edu.app.server.model.Authority">
+      <point x="76.0" y="71.0" />
+      <point x="747.4658424908424" y="172.0" />
+      <point x="1014.1325091575092" y="172.0" />
+      <point x="45.5" y="-71.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.model.Authority">
+      <point x="-12.916666666666515" y="-82.0" />
+      <point x="937.3333333333336" y="1376.0" />
+      <point x="979.6325091575092" y="1376.0" />
+      <point x="979.6325091575092" y="384.0" />
+      <point x="994.6325091575092" y="384.0" />
+      <point x="26.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.model.Periodicity" target="edu.app.server.model.PeriodicityType">
+      <point x="-56.75" y="-71.0" />
+      <point x="139.123906822344" y="658.0" />
+      <point x="153.873906822344" y="658.0" />
+      <point x="-42.0" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.service.AuthorityService" target="edu.app.server.model.Authority">
+      <point x="-87.33333333333348" y="-38.0" />
+      <point x="709.4752690018316" y="1136.0" />
+      <point x="694.9752690018319" y="1136.0" />
+      <point x="694.9752690018319" y="374.0" />
+      <point x="916.6325091575092" y="374.0" />
+      <point x="-52.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.service.PeriodicTaskService" target="edu.app.server.model.PeriodicTask">
+      <point x="-98.66666666666674" y="-38.0" />
+      <point x="2436.2158424908425" y="1436.0" />
+      <point x="2445.632509157509" y="1436.0" />
+      <point x="2445.632509157509" y="1136.0" />
+      <point x="2472.7222928113556" y="1136.0" />
+      <point x="25.5" y="27.0" />
+    </edge>
+    <edge source="edu.app.server.controller.PeriodicityRestController" target="edu.app.server.model.Periodicity">
+      <point x="-93.0" y="-27.0" />
+      <point x="31.0" y="1436.0" />
+      <point x="5.560702838828547" y="1436.0" />
+      <point x="5.560702838828547" y="870.0" />
+      <point x="105.07390682234404" y="870.0" />
+      <point x="-90.79999999999995" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.model.PeriodicTask" target="edu.app.server.model.User">
+      <point x="-40.799999999999955" y="-27.0" />
+      <point x="2406.422292811356" y="840.0" />
+      <point x="2354.6158424908426" y="840.0" />
+      <point x="2354.6158424908426" y="638.0" />
+      <point x="2167.1235805860806" y="638.0" />
+      <point x="33.92857142857156" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.config.JWTAuthenticationFilter" target="edu.app.server.config.Constants">
+      <point x="-38.75" y="-60.0" />
+      <point x="1122.007509157509" y="1136.0" />
+      <point x="1130.7847928113556" y="1136.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="edu.app.server.model.PeriodicTask" target="edu.app.server.model.Periodicity">
+      <point x="-81.60000000000002" y="-27.0" />
+      <point x="2365.6222928113557" y="850.0" />
+      <point x="286.6739068223442" y="850.0" />
+      <point x="90.80000000000007" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.model.NonPeriodicTask" target="edu.app.server.model.State">
+      <point x="63.0" y="-38.0" />
+      <point x="3019.201459478022" y="870.0" />
+      <point x="3003.701459478022" y="870.0" />
+      <point x="3003.701459478022" y="588.0" />
+      <point x="2576.549393315019" y="588.0" />
+      <point x="33.0" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.controller.NonPeriodicTaskRestController" target="edu.app.server.model.NonPeriodicTask">
+      <point x="-113.25" y="-27.0" />
+      <point x="2815.9468063186805" y="1650.0" />
+      <point x="2696.7158424908425" y="1650.0" />
+      <point x="2696.7158424908425" y="1126.0" />
+      <point x="2893.201459478022" y="1126.0" />
+      <point x="-63.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.controller.PeriodicTaskRestController" target="edu.app.server.model.PeriodicTask">
+      <point x="-96.75" y="-27.0" />
+      <point x="2390.382509157509" y="1650.0" />
+      <point x="2365.382509157509" y="1650.0" />
+      <point x="2365.382509157509" y="1136.0" />
+      <point x="2370.7222928113556" y="1136.0" />
+      <point x="-76.5" y="27.0" />
+    </edge>
+    <edge source="edu.app.server.repository.AuthorityRepository" target="edu.app.server.model.Authority">
+      <point x="0.0" y="-26.0" />
+      <point x="840.4752690018319" y="384.0" />
+      <point x="942.6325091575092" y="384.0" />
+      <point x="-26.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.config.JWTAuthorizationFilter" target="edu.app.server.config.Constants">
+      <point x="-84.0" y="-38.0" />
+      <point x="1363.757509157509" y="1106.0" />
+      <point x="1214.4514594780221" y="1106.0" />
+      <point x="83.66666666666652" y="93.0" />
+    </edge>
+    <edge source="edu.app.server.service.PeriodicTaskService" target="edu.app.server.repository.PeriodicTaskRepository">
+      <point x="98.66666666666674" y="-38.0" />
+      <point x="2633.549175824176" y="1436.0" />
+      <point x="2624.132509157509" y="1436.0" />
+      <point x="56.0" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.model.Resource">
+      <point x="-90.41666666666652" y="-82.0" />
+      <point x="859.8333333333336" y="1306.0" />
+      <point x="638.0586023351651" y="1306.0" />
+      <point x="638.0586023351651" y="182.0" />
+      <point x="671.4658424908424" y="182.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.config.Constants">
+      <point x="12.916666666666515" y="-82.0" />
+      <point x="963.1666666666666" y="1386.0" />
+      <point x="995.2575091575092" y="1386.0" />
+      <point x="995.2575091575092" y="1136.0" />
+      <point x="1047.118126144689" y="1136.0" />
+      <point x="-83.66666666666652" y="93.0" />
+    </edge>
+    <edge source="edu.app.server.service.PeriodicityService" target="edu.app.server.repository.PeriodicityRepository">
+      <point x="0.0" y="-38.0" />
+      <point x="170.06070283882855" y="1136.0" />
+      <point x="178.06070283882855" y="1136.0" />
+      <point x="54.0" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.controller.GroupTaskRestController" target="edu.app.server.service.GroupTaskService">
+      <point x="-29.625" y="-27.0" />
+      <point x="2190.007509157509" y="1650.0" />
+      <point x="2208.757509157509" y="1650.0" />
+      <point x="68.75" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.service.GroupTaskService" target="edu.app.server.repository.GroupTaskRepository">
+      <point x="0.0" y="-38.0" />
+      <point x="2140.007509157509" y="1436.0" />
+      <point x="2120.257509157509" y="1436.0" />
+      <point x="-50.0" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.config.JWTAuthorizationFilter" target="edu.app.server.model.User">
+      <point x="-28.0" y="-38.0" />
+      <point x="1419.757509157509" y="1096.0" />
+      <point x="1359.6968063186805" y="1096.0" />
+      <point x="1359.6968063186805" y="608.0" />
+      <point x="2058.552152014652" y="608.0" />
+      <point x="-74.64285714285711" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.service.PeriodicityService" target="edu.app.server.model.Periodicity">
+      <point x="92.0" y="-38.0" />
+      <point x="262.06070283882855" y="1136.0" />
+      <point x="242.56070283882855" y="1136.0" />
+      <point x="242.56070283882855" y="870.0" />
+      <point x="195.873906822344" y="870.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.service.NonPeriodicTaskService" target="edu.app.server.repository.NonPeriodicTaskRepository">
+      <point x="-113.33333333333331" y="-38.0" />
+      <point x="2766.549175824176" y="1436.0" />
+      <point x="2781.632509157509" y="1436.0" />
+      <point x="-62.0" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.repository.PeriodicityRepository" target="edu.app.server.model.Periodicity">
+      <point x="0.0" y="-26.0" />
+      <point x="124.06070283882855" y="870.0" />
+      <point x="150.4739068223439" y="870.0" />
+      <point x="-45.39999999999998" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.model.NonPeriodicTask" target="edu.app.server.model.User">
+      <point x="21.0" y="-38.0" />
+      <point x="2977.201459478022" y="870.0" />
+      <point x="2987.642857142857" y="870.0" />
+      <point x="2987.642857142857" y="598.0" />
+      <point x="2221.409294871795" y="598.0" />
+      <point x="88.21428571428578" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.model.GroupTask" target="edu.app.server.model.Task">
+      <point x="44.33333333333326" y="-60.0" />
+      <point x="2269.8408424908425" y="870.0" />
+      <point x="2417.5993933150194" y="870.0" />
+      <point x="-56.799999999999955" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.controller.PeriodicTaskRestController" target="edu.app.server.service.PeriodicTaskService">
+      <point x="32.25" y="-27.0" />
+      <point x="2519.382509157509" y="1650.0" />
+      <point x="2460.882509157509" y="1650.0" />
+      <point x="-74.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.service.ResourceService">
+      <point x="-116.25" y="-82.0" />
+      <point x="834.0000000000001" y="1316.0" />
+      <point x="552.9752690018317" y="1316.0" />
+      <point x="64.25" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.config.UserDetailServiceImpl" target="edu.app.server.model.User">
+      <point x="72.0" y="-38.0" />
+      <point x="2013.257509157509" y="658.0" />
+      <point x="2126.409294871795" y="658.0" />
+      <point x="-6.785714285714221" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.model.Authority" target="edu.app.server.model.Resource">
+      <point x="-45.5" y="-71.0" />
+      <point x="923.1325091575092" y="182.0" />
+      <point x="709.4658424908424" y="182.0" />
+      <point x="38.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.service.GroupTaskService" target="edu.app.server.model.GroupTask">
+      <point x="-91.66666666666674" y="-38.0" />
+      <point x="2048.3408424908425" y="1436.0" />
+      <point x="2059.757509157509" y="1436.0" />
+      <point x="2059.757509157509" y="1126.0" />
+      <point x="2175.632509157509" y="1126.0" />
+      <point x="-49.875" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.config.JWTAuthenticationFilter" target="edu.app.server.model.User">
+      <point x="-116.25" y="-60.0" />
+      <point x="1044.507509157509" y="1126.0" />
+      <point x="994.7847928113557" y="1126.0" />
+      <point x="994.7847928113557" y="598.0" />
+      <point x="2044.9807234432233" y="598.0" />
+      <point x="-88.21428571428578" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.service.NonPeriodicTaskService" target="edu.app.server.model.NonPeriodicTask">
+      <point x="113.33333333333348" y="-38.0" />
+      <point x="2993.215842490843" y="1436.0" />
+      <point x="3013.363472985347" y="1436.0" />
+      <point x="3013.363472985347" y="1136.0" />
+      <point x="2977.201459478022" y="1136.0" />
+      <point x="21.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.model.User" target="edu.app.server.model.Task">
+      <point x="74.64285714285711" y="82.0" />
+      <point x="2207.8378663003664" y="608.0" />
+      <point x="2474.399393315019" y="608.0" />
+      <point x="0.0" y="-71.0" />
+    </edge>
+    <edge source="edu.app.server.service.AuthorityService" target="edu.app.server.repository.AuthorityRepository">
+      <point x="87.33333333333348" y="-38.0" />
+      <point x="884.1419356684986" y="1136.0" />
+      <point x="890.4752690018319" y="1136.0" />
+      <point x="50.0" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.controller.PeriodicityRestController" target="edu.app.server.service.PeriodicityService">
+      <point x="31.0" y="-27.0" />
+      <point x="155.0" y="1426.0" />
+      <point x="239.06070283882855" y="1426.0" />
+      <point x="69.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.controller.UserRestController" target="edu.app.server.service.UserService">
+      <point x="-24.0" y="-27.0" />
+      <point x="1693.257509157509" y="1136.0" />
+      <point x="1663.007509157509" y="1136.0" />
+      <point x="77.5" y="49.0" />
+    </edge>
+    <edge source="edu.app.server.service.ResourceService" target="edu.app.server.model.Resource">
+      <point x="-85.66666666666652" y="-38.0" />
+      <point x="403.05860233516523" y="1136.0" />
+      <point x="390.30860233516523" y="1136.0" />
+      <point x="390.30860233516523" y="162.0" />
+      <point x="595.4658424908424" y="162.0" />
+      <point x="-76.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.repository.PeriodicTaskRepository" target="edu.app.server.model.PeriodicTask">
+      <point x="0.0" y="-26.0" />
+      <point x="2568.132509157509" y="1136.0" />
+      <point x="2523.7222928113556" y="1136.0" />
+      <point x="76.5" y="27.0" />
+    </edge>
+    <edge source="edu.app.server.service.UserService" target="edu.app.server.repository.UserRepository">
+      <point x="103.33333333333348" y="-49.0" />
+      <point x="1688.8408424908425" y="870.0" />
+      <point x="1650.7575091575095" y="870.0" />
+      <point x="40.00000000000023" y="26.0" />
+    </edge>
+    <edge source="edu.app.server.model.User" target="edu.app.server.model.Authority">
+      <point x="-47.5" y="-82.0" />
+      <point x="2085.695009157509" y="384.0" />
+      <point x="1020.6325091575092" y="384.0" />
+      <point x="52.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.controller.NonPeriodicTaskRestController" target="edu.app.server.service.NonPeriodicTaskService">
+      <point x="-37.75" y="-27.0" />
+      <point x="2891.4468063186805" y="1640.0" />
+      <point x="2794.8825091575095" y="1640.0" />
+      <point x="-85.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.service.AuthorityService">
+      <point x="-64.58333333333303" y="-82.0" />
+      <point x="885.6666666666671" y="1296.0" />
+      <point x="829.5586023351651" y="1296.0" />
+      <point x="32.75" y="38.0" />
     </edge>
     <edge source="edu.app.server.model.PeriodicTask" target="edu.app.server.model.Task">
-      <point x="-51.0" y="-26.5" />
-      <point x="687.9712301587301" y="352.0" />
-      <point x="546.953373015873" y="352.0" />
-      <point x="60.85714285714289" y="70.5" />
+      <point x="0.0" y="-27.0" />
+      <point x="2447.2222928113556" y="870.0" />
+      <point x="2445.999393315019" y="870.0" />
+      <point x="-28.399999999999977" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.model.NonPeriodicTask" target="edu.app.server.model.Task">
+      <point x="-21.0" y="-38.0" />
+      <point x="2935.201459478022" y="850.0" />
+      <point x="2531.1993933150193" y="850.0" />
+      <point x="56.799999999999955" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.repository.UserRepository" target="edu.app.server.model.User">
+      <point x="2.2737367544323206E-13" y="-26.0" />
+      <point x="1610.7575091575095" y="628.0" />
+      <point x="2085.695009157509" y="628.0" />
+      <point x="-47.5" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.repository.NonPeriodicTaskRepository" target="edu.app.server.model.NonPeriodicTask">
+      <point x="0.0" y="-26.0" />
+      <point x="2843.632509157509" y="1136.0" />
+      <point x="2935.201459478022" y="1136.0" />
+      <point x="-21.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.controller.AuthorityRestController" target="edu.app.server.service.AuthorityService">
+      <point x="-29.0" y="-27.0" />
+      <point x="630.2500000000001" y="1346.0" />
+      <point x="698.5586023351651" y="1346.0" />
+      <point x="-98.25" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.repository.GroupTaskRepository" target="edu.app.server.model.GroupTask">
+      <point x="0.0" y="-26.0" />
+      <point x="2170.257509157509" y="1136.0" />
+      <point x="2208.882509157509" y="1136.0" />
+      <point x="-16.625" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.model.Task" target="edu.app.server.model.State">
+      <point x="56.799999999999955" y="-71.0" />
+      <point x="2531.1993933150193" y="658.0" />
+      <point x="2532.549393315019" y="658.0" />
+      <point x="-11.0" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.config.JWTAuthorizationFilter">
+      <point x="90.41666666666652" y="-82.0" />
+      <point x="1040.6666666666665" y="1416.0" />
+      <point x="1503.757509157509" y="1416.0" />
+      <point x="56.0" y="38.0" />
+    </edge>
+    <edge source="edu.app.server.config.SecurityConfig" target="edu.app.server.config.JWTAuthenticationFilter">
+      <point x="38.75" y="-82.0" />
+      <point x="989.0000000000001" y="1396.0" />
+      <point x="1160.757509157509" y="1396.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.error.ErrorRestController" target="edu.app.server.error.ApiError">
+      <point x="50.0" y="-26.0" />
+      <point x="150.0" y="1892.0" />
+      <point x="136.75" y="1892.0" />
+      <point x="36.75" y="49.0" />
+    </edge>
+    <edge source="edu.app.server.controller.GroupTaskRestController" target="edu.app.server.model.GroupTask">
+      <point x="88.875" y="-27.0" />
+      <point x="2308.507509157509" y="1650.0" />
+      <point x="2333.507509157509" y="1650.0" />
+      <point x="2333.507509157509" y="1126.0" />
+      <point x="2275.382509157509" y="1126.0" />
+      <point x="49.875" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.model.Task" target="edu.app.server.model.User">
+      <point x="-28.399999999999977" y="-71.0" />
+      <point x="2445.999393315019" y="618.0" />
+      <point x="2194.266437728938" y="618.0" />
+      <point x="61.07142857142867" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.model.PeriodicTask" target="edu.app.server.model.State">
+      <point x="81.59999999999991" y="-27.0" />
+      <point x="2528.8222928113555" y="870.0" />
+      <point x="2555.899393315019" y="870.0" />
+      <point x="2555.899393315019" y="658.0" />
+      <point x="2554.549393315019" y="658.0" />
+      <point x="11.0" y="60.0" />
+    </edge>
+    <edge source="edu.app.server.model.GroupTask" target="edu.app.server.model.User">
+      <point x="0.0" y="-60.0" />
+      <point x="2225.507509157509" y="870.0" />
+      <point x="2218.1597928113556" y="870.0" />
+      <point x="2218.1597928113556" y="648.0" />
+      <point x="2153.552152014652" y="648.0" />
+      <point x="20.35714285714289" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.config.JWTAuthenticationFilter" target="edu.app.server.service.UserService">
+      <point x="116.25" y="-60.0" />
+      <point x="1277.007509157509" y="1126.0" />
+      <point x="1477.007509157509" y="1126.0" />
+      <point x="-108.5" y="49.0" />
+    </edge>
+    <edge source="edu.app.server.model.Authority" target="edu.app.server.model.User">
+      <point x="78.0" y="71.0" />
+      <point x="1046.632509157509" y="374.0" />
+      <point x="2180.695009157509" y="374.0" />
+      <point x="47.5" y="-82.0" />
+    </edge>
+    <edge source="edu.app.server.controller.AuthorityRestController" target="edu.app.server.model.Authority">
+      <point x="87.0" y="-27.0" />
+      <point x="746.2500000000001" y="1366.0" />
+      <point x="950.9752690018319" y="1366.0" />
+      <point x="950.9752690018319" y="384.0" />
+      <point x="968.6325091575092" y="384.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="edu.app.server.service.UserService" target="edu.app.server.model.User">
+      <point x="-103.33333333333326" y="-49.0" />
+      <point x="1482.174175824176" y="870.0" />
+      <point x="1520.257509157509" y="870.0" />
+      <point x="1520.257509157509" y="618.0" />
+      <point x="2072.1235805860806" y="618.0" />
+      <point x="-61.07142857142867" y="82.0" />
+    </edge>
+    <edge source="edu.app.server.config.UserDetailServiceImpl" target="edu.app.server.service.UserService">
+      <point x="0.0" y="-38.0" />
+      <point x="1941.257509157509" y="1106.0" />
+      <point x="1725.007509157509" y="1106.0" />
+      <point x="139.5" y="49.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7152317880794702" x="452.0" y="367.5" />
-  <SelectedNodes>
-    <node>edu.app.server.model.Resource</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.27149321266968324" x="1540.5" y="984.5000000000001" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
   </Categories>

@@ -1,0 +1,163 @@
+\hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+service.\+Resource\+Service}
+\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service}\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a733373b8506befeb99e1722295d066da}{Resource\+Service}} (\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository}{Resource\+Repository}} resource\+Repository)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a7557a0e286d79cc838946b7d6ff0fc76}{get\+By\+Id}} (Long id)
+\item 
+List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a769bd983cd5d8580bb97af2b0620a3b7}{get\+All\+Resources}} ()
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_acc4a6d42eeb703676399ade1f9348e27}{get\+By\+Name}} (String name)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_aed1601337d9494777313651e9d67e082}{save\+Resource}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} resource)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a2b8f9d27977f3593b345120c5536b8cc}{update\+Resource}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} resource)
+\item 
+String \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_resource_service_abfe9ee8cac166add2c5d619e4e5a3110}{delete\+Resource}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} resource)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el modulo de servicio que implementa las logicas de negocio o transformaciones a los datos de Resource.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Resource 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a733373b8506befeb99e1722295d066da}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a733373b8506befeb99e1722295d066da}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!ResourceService@{ResourceService}}
+\index{ResourceService@{ResourceService}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{ResourceService()}{ResourceService()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+service.\+Resource\+Service.\+Resource\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository}{Resource\+Repository}}}]{resource\+Repository }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em resource\+Repository} & Es el repositorio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_abfe9ee8cac166add2c5d619e4e5a3110}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_abfe9ee8cac166add2c5d619e4e5a3110}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!deleteResource@{deleteResource}}
+\index{deleteResource@{deleteResource}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{deleteResource()}{deleteResource()}}
+{\footnotesize\ttfamily String edu.\+app.\+server.\+service.\+Resource\+Service.\+delete\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}}}]{resource }\end{DoxyParamCaption})}
+
+Elimina el recurso, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em resource} & Es el recurso a eliminar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es una cadena con la confirnación. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Resource\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a769bd983cd5d8580bb97af2b0620a3b7}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a769bd983cd5d8580bb97af2b0620a3b7}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!getAllResources@{getAllResources}}
+\index{getAllResources@{getAllResources}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{getAllResources()}{getAllResources()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}}$>$ edu.\+app.\+server.\+service.\+Resource\+Service.\+get\+All\+Resources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtiene todas los recursos, mediante una transacción de solo lectura.
+
+\begin{DoxyReturn}{Devuelve}
+Son todas los recursos realizadas por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Resource\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a7557a0e286d79cc838946b7d6ff0fc76}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a7557a0e286d79cc838946b7d6ff0fc76}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!getById@{getById}}
+\index{getById@{getById}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{getById()}{getById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} edu.\+app.\+server.\+service.\+Resource\+Service.\+get\+By\+Id (\begin{DoxyParamCaption}\item[{Long}]{id }\end{DoxyParamCaption})}
+
+Obtiene el recurso mediante su id, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el id del Resource. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Retorna el valor existe o no existe que es retornado por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Resource\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_acc4a6d42eeb703676399ade1f9348e27}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_acc4a6d42eeb703676399ade1f9348e27}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!getByName@{getByName}}
+\index{getByName@{getByName}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{getByName()}{getByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} edu.\+app.\+server.\+service.\+Resource\+Service.\+get\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Realiza la busqueda por nombre, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em name} & Es el nombre del Recurso. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la autoridad que se busco. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Resource\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_aed1601337d9494777313651e9d67e082}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_aed1601337d9494777313651e9d67e082}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!saveResource@{saveResource}}
+\index{saveResource@{saveResource}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{saveResource()}{saveResource()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} edu.\+app.\+server.\+service.\+Resource\+Service.\+save\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}}}]{resource }\end{DoxyParamCaption})}
+
+Guarda el recurso, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em resource} & Es el recurso a guardar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es el recurso con el id asignado en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Resource\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a2b8f9d27977f3593b345120c5536b8cc}\label{classedu_1_1app_1_1server_1_1service_1_1_resource_service_a2b8f9d27977f3593b345120c5536b8cc}} 
+\index{edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}!updateResource@{updateResource}}
+\index{updateResource@{updateResource}!edu.app.server.service.ResourceService@{edu.app.server.service.ResourceService}}
+\doxysubsubsection{\texorpdfstring{updateResource()}{updateResource()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}} edu.\+app.\+server.\+service.\+Resource\+Service.\+update\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_resource}{Resource}}}]{resource }\end{DoxyParamCaption})}
+
+Actualiza el recurso autoridad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em resource} & Es el recurso a actualizar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es el recurso con el los valores actualizados en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Resource\+Repository 
+\end{DoxySeeAlso}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/service/Resource\+Service.\+java\end{DoxyCompactItemize}

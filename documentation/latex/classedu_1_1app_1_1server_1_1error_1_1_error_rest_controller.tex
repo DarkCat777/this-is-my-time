@@ -1,0 +1,62 @@
+\hypertarget{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+error.\+Error\+Rest\+Controller}
+\label{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller}\index{edu.app.server.error.ErrorRestController@{edu.app.server.error.ErrorRestController}}
+Diagrama de herencias de edu.\+app.\+server.\+error.\+Error\+Rest\+Controller\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+Response\+Entity$<$ Object $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_abc78dca2347dd1114b6250f4965b2953}{handle\+Constraint\+Violation}} (Constraint\+Violation\+Exception ex, Web\+Request request)
+\item 
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_a9f7eca0feb389dd73b0dfd061ad28b5e}\label{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_a9f7eca0feb389dd73b0dfd061ad28b5e}} 
+Response\+Entity$<$ Object $>$ {\bfseries handle\+Method\+Argument\+Type\+Mismatch} (Method\+Argument\+Type\+Mismatch\+Exception ex, Web\+Request request)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_a7d5933b81ae40d2aa03bfe09b1fb2286}\label{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_a7d5933b81ae40d2aa03bfe09b1fb2286}} 
+Response\+Entity$<$ Object $>$ {\bfseries handle\+Method\+Argument\+Not\+Valid} (Method\+Argument\+Not\+Valid\+Exception ex, Http\+Headers headers, Http\+Status status, Web\+Request request)
+\item 
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_a2998a57d5f21ccbe630f4fe7b8f97cd5}\label{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_a2998a57d5f21ccbe630f4fe7b8f97cd5}} 
+Response\+Entity$<$ Object $>$ {\bfseries handle\+Missing\+Servlet\+Request\+Parameter} (Missing\+Servlet\+Request\+Parameter\+Exception ex, Http\+Headers headers, Http\+Status status, Web\+Request request)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el controlador encargado de recopilar los errores en formato \mbox{\hyperlink{classedu_1_1app_1_1server_1_1error_1_1_api_error}{Api\+Error}} y enviarlos en respuesta.
+
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1error_1_1_api_error}{Api\+Error}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_abc78dca2347dd1114b6250f4965b2953}\label{classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller_abc78dca2347dd1114b6250f4965b2953}} 
+\index{edu.app.server.error.ErrorRestController@{edu.app.server.error.ErrorRestController}!handleConstraintViolation@{handleConstraintViolation}}
+\index{handleConstraintViolation@{handleConstraintViolation}!edu.app.server.error.ErrorRestController@{edu.app.server.error.ErrorRestController}}
+\doxysubsubsection{\texorpdfstring{handleConstraintViolation()}{handleConstraintViolation()}}
+{\footnotesize\ttfamily Response\+Entity$<$Object$>$ edu.\+app.\+server.\+error.\+Error\+Rest\+Controller.\+handle\+Constraint\+Violation (\begin{DoxyParamCaption}\item[{Constraint\+Violation\+Exception}]{ex,  }\item[{Web\+Request}]{request }\end{DoxyParamCaption})}
+
+Se encarga de transformar los errores de validación y estructurarlos y enviarlos al usuario en caso de que llene los datos mal.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em ex} & Excepción que es lanzada por las validaciones incorrectas. \\
+\hline
+{\em request} & Es el la respuesta enviada por el cliente. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es un respoense entity con el modelo de \mbox{\hyperlink{classedu_1_1app_1_1server_1_1error_1_1_api_error}{Api\+Error}}. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1error_1_1_api_error}{Api\+Error}} 
+\end{DoxySeeAlso}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/error/Error\+Rest\+Controller.\+java\end{DoxyCompactItemize}

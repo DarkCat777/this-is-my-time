@@ -1,0 +1,151 @@
+\hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+service.\+Group\+Task\+Service}
+\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service}\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a18fb4c86d4b01eaf75a55272b90dcf4a}{Group\+Task\+Service}} (\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository}{Group\+Task\+Repository}} group\+Task\+Repository)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a936d8bffbb9c17b8415ff83b5f9ec2f3}{get\+By\+Id}} (Long id)
+\item 
+List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_ad9abde6322d3e5daffb31b4f369883a9}{get\+All\+Group\+Task}} ()
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a6b8fdbcf0e06581ba0c33e5936c2e917}{save\+Group\+Task}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} periodic\+Task)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a2dba0cd4bb109e9d6a52572ff6d187a8}{update\+Group\+Task}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} periodic\+Task)
+\item 
+String \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a1edef83977d6b6f7fc33004b0d0beb1b}{delete\+Group\+Task}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} periodic\+Task)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a3dbdc2e3b9839b5701cd630158583e13}{get\+By\+Name}} (String name)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el modulo de servicio que implementa las logicas de negocio o transformaciones para los datos del Group\+Task.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{edu.\+app.\+server.\+model.\+Authority}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a18fb4c86d4b01eaf75a55272b90dcf4a}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a18fb4c86d4b01eaf75a55272b90dcf4a}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!GroupTaskService@{GroupTaskService}}
+\index{GroupTaskService@{GroupTaskService}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{GroupTaskService()}{GroupTaskService()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+Group\+Task\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository}{Group\+Task\+Repository}}}]{group\+Task\+Repository }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em group\+Task\+Repository} & Es el repositorio del Group\+Task \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{Ver también}
+Group\+Task\+Repository 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a1edef83977d6b6f7fc33004b0d0beb1b}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a1edef83977d6b6f7fc33004b0d0beb1b}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!deleteGroupTask@{deleteGroupTask}}
+\index{deleteGroupTask@{deleteGroupTask}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{deleteGroupTask()}{deleteGroupTask()}}
+{\footnotesize\ttfamily String edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+delete\+Group\+Task (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}}}]{periodic\+Task }\end{DoxyParamCaption})}
+
+Elimina la group\+Task, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodic\+Task} & Es la group\+Task que se desea eliminar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la cadena que confirma si la operación tuvo exito o no. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_ad9abde6322d3e5daffb31b4f369883a9}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_ad9abde6322d3e5daffb31b4f369883a9}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!getAllGroupTask@{getAllGroupTask}}
+\index{getAllGroupTask@{getAllGroupTask}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{getAllGroupTask()}{getAllGroupTask()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}}$>$ edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+get\+All\+Group\+Task (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtiene todos los group\+Tasks, mediante una transacción de solo lectura.
+
+\begin{DoxyReturn}{Devuelve}
+Es una lista con todas las grouptask. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a936d8bffbb9c17b8415ff83b5f9ec2f3}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a936d8bffbb9c17b8415ff83b5f9ec2f3}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!getById@{getById}}
+\index{getById@{getById}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{getById()}{getById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+get\+By\+Id (\begin{DoxyParamCaption}\item[{Long}]{id }\end{DoxyParamCaption})}
+
+Obtiene una Group\+Task por su identificador, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el indentificador del Group\+Task \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es el group\+Task si es que se encuentra y sino retorna un valor nulo. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Optional 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a3dbdc2e3b9839b5701cd630158583e13}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a3dbdc2e3b9839b5701cd630158583e13}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!getByName@{getByName}}
+\index{getByName@{getByName}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{getByName()}{getByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+get\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Obtiene la Grouptask por su nombre, mediante una transaccipon de lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em name} & Es el nombre de la group\+Task que se desea buscar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la grouptask que se busca o un nulo si no existe. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a6b8fdbcf0e06581ba0c33e5936c2e917}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a6b8fdbcf0e06581ba0c33e5936c2e917}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!saveGroupTask@{saveGroupTask}}
+\index{saveGroupTask@{saveGroupTask}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{saveGroupTask()}{saveGroupTask()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+save\+Group\+Task (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}}}]{periodic\+Task }\end{DoxyParamCaption})}
+
+Guarda la group\+Task, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodic\+Task} & Es la group\+Task que se desea guardar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la grouptask que se guardo en la BD con su id generada. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a2dba0cd4bb109e9d6a52572ff6d187a8}\label{classedu_1_1app_1_1server_1_1service_1_1_group_task_service_a2dba0cd4bb109e9d6a52572ff6d187a8}} 
+\index{edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}!updateGroupTask@{updateGroupTask}}
+\index{updateGroupTask@{updateGroupTask}!edu.app.server.service.GroupTaskService@{edu.app.server.service.GroupTaskService}}
+\doxysubsubsection{\texorpdfstring{updateGroupTask()}{updateGroupTask()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}} edu.\+app.\+server.\+service.\+Group\+Task\+Service.\+update\+Group\+Task (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_group_task}{Group\+Task}}}]{periodic\+Task }\end{DoxyParamCaption})}
+
+Actualiza la group\+Task, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodic\+Task} & Es la group\+Task que se desea actualizar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la grouptask que se guardo en la BD o un nulo si la operación no se concluye con exito. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/service/Group\+Task\+Service.\+java\end{DoxyCompactItemize}

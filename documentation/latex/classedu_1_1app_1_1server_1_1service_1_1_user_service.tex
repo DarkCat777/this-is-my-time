@@ -1,0 +1,165 @@
+\hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+service.\+User\+Service}
+\label{classedu_1_1app_1_1server_1_1service_1_1_user_service}\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_aca7c5cae387c540b0833b0810b3e5ae4}{User\+Service}} (\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository}{User\+Repository}} user\+Repository, B\+Crypt\+Password\+Encoder b\+Crypt\+Password\+Encoder)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_a42f834d4a99a7f329d9a8810cdfff1e9}{save\+User}} (@Validated \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} user)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_a0bd964c884903f3fc289be6ac62d669f}{update\+User}} (@Validated \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} user)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_a3cc81510942985baa68e99664f8eb9a8}{get\+By\+Username}} (String username)
+\item 
+List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_a8d8f2225cf81edf4b224a9e4668601ec}{get\+All\+Users}} ()
+\item 
+String \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_ae5542f6d7e742c02773401b29163f005}{delete\+User}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} user)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_user_service_a10093e049ac690070776dc82cbb4f362}{get\+By\+Id}} (Long id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el modulo de servicio que implementa las logicas de negocio o transformaciones a los datos de User.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+User 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_aca7c5cae387c540b0833b0810b3e5ae4}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_aca7c5cae387c540b0833b0810b3e5ae4}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!UserService@{UserService}}
+\index{UserService@{UserService}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{UserService()}{UserService()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+service.\+User\+Service.\+User\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository}{User\+Repository}}}]{user\+Repository,  }\item[{B\+Crypt\+Password\+Encoder}]{b\+Crypt\+Password\+Encoder }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user\+Repository} & Es el repositorio que sera injectado por Spring. \\
+\hline
+{\em b\+Crypt\+Password\+Encoder} & Es el encriptador de datos que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_ae5542f6d7e742c02773401b29163f005}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_ae5542f6d7e742c02773401b29163f005}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!deleteUser@{deleteUser}}
+\index{deleteUser@{deleteUser}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{deleteUser()}{deleteUser()}}
+{\footnotesize\ttfamily String edu.\+app.\+server.\+service.\+User\+Service.\+delete\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+Elimina el usuario, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Es el usuario a eliminar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es una cadena con la confirnación. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+User\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_a8d8f2225cf81edf4b224a9e4668601ec}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_a8d8f2225cf81edf4b224a9e4668601ec}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!getAllUsers@{getAllUsers}}
+\index{getAllUsers@{getAllUsers}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{getAllUsers()}{getAllUsers()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}$>$ edu.\+app.\+server.\+service.\+User\+Service.\+get\+All\+Users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtiene todas los usuarios, mediante una transacción de solo lectura.
+
+\begin{DoxyReturn}{Devuelve}
+Son todas los usuarios realizadas por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+User\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_a10093e049ac690070776dc82cbb4f362}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_a10093e049ac690070776dc82cbb4f362}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!getById@{getById}}
+\index{getById@{getById}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{getById()}{getById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} edu.\+app.\+server.\+service.\+User\+Service.\+get\+By\+Id (\begin{DoxyParamCaption}\item[{Long}]{id }\end{DoxyParamCaption})}
+
+Obtiene el usuario mediante su id, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el id del User. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Retorna el valor existe o no existe que es retornado por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+User\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_a3cc81510942985baa68e99664f8eb9a8}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_a3cc81510942985baa68e99664f8eb9a8}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!getByUsername@{getByUsername}}
+\index{getByUsername@{getByUsername}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{getByUsername()}{getByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} edu.\+app.\+server.\+service.\+User\+Service.\+get\+By\+Username (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+Realiza la busqueda por nombre, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em username} & Es el nombre del usuario. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es el usuario que se busco. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+User\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_a42f834d4a99a7f329d9a8810cdfff1e9}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_a42f834d4a99a7f329d9a8810cdfff1e9}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!saveUser@{saveUser}}
+\index{saveUser@{saveUser}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{saveUser()}{saveUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} edu.\+app.\+server.\+service.\+User\+Service.\+save\+User (\begin{DoxyParamCaption}\item[{@Validated \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+Guarda el usuario, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Es el usuario a guardar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es el usuario con el id asignado en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+User\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_user_service_a0bd964c884903f3fc289be6ac62d669f}\label{classedu_1_1app_1_1server_1_1service_1_1_user_service_a0bd964c884903f3fc289be6ac62d669f}} 
+\index{edu.app.server.service.UserService@{edu.app.server.service.UserService}!updateUser@{updateUser}}
+\index{updateUser@{updateUser}!edu.app.server.service.UserService@{edu.app.server.service.UserService}}
+\doxysubsubsection{\texorpdfstring{updateUser()}{updateUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}} edu.\+app.\+server.\+service.\+User\+Service.\+update\+User (\begin{DoxyParamCaption}\item[{@Validated \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+Actualiza el usuario, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Es el usuario a actualizar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es el usuario con el los valores actualizados en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+User\+Repository 
+\end{DoxySeeAlso}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/service/User\+Service.\+java\end{DoxyCompactItemize}

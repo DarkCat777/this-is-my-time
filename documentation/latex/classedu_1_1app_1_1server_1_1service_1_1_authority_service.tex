@@ -1,0 +1,163 @@
+\hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+service.\+Authority\+Service}
+\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service}\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_af135e2eb19207b300013aaf34fed9d17}{Authority\+Service}} (\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository}{Authority\+Repository}} authority\+Repository)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a4f8d4ac57f47a3a5f20dd2a754ef67c4}{get\+By\+Id}} (Long id)
+\item 
+List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a6979ea880bb20c0bb43098b7f04bac82}{get\+All\+Authorities}} ()
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a73329ee4fda461b90a44acdfc0b169d3}{save\+Authority}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} authority)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a87843ab4f50c9fb126ede4df7af190e7}{update\+Authority}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} authority)
+\item 
+String \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a95513acd946f9c0296d04cdbeb619989}{delete\+Authority}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} authority)
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} \mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a9a98859e857776d52a1671a5c6492c17}{get\+By\+Name}} (String name)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el modulo de servicio que implementa las logicas de negocio o transformaciones a los datos de Authority.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Authority 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_af135e2eb19207b300013aaf34fed9d17}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_af135e2eb19207b300013aaf34fed9d17}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!AuthorityService@{AuthorityService}}
+\index{AuthorityService@{AuthorityService}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{AuthorityService()}{AuthorityService()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+service.\+Authority\+Service.\+Authority\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository}{Authority\+Repository}}}]{authority\+Repository }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em authority\+Repository} & Es el repositorio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a95513acd946f9c0296d04cdbeb619989}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a95513acd946f9c0296d04cdbeb619989}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!deleteAuthority@{deleteAuthority}}
+\index{deleteAuthority@{deleteAuthority}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{deleteAuthority()}{deleteAuthority()}}
+{\footnotesize\ttfamily String edu.\+app.\+server.\+service.\+Authority\+Service.\+delete\+Authority (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}}]{authority }\end{DoxyParamCaption})}
+
+Elimina la autoridad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em authority} & Es la autoridad a eliminar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es una cadena con la confirnación. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a6979ea880bb20c0bb43098b7f04bac82}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a6979ea880bb20c0bb43098b7f04bac82}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!getAllAuthorities@{getAllAuthorities}}
+\index{getAllAuthorities@{getAllAuthorities}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{getAllAuthorities()}{getAllAuthorities()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}$>$ edu.\+app.\+server.\+service.\+Authority\+Service.\+get\+All\+Authorities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtiene todas las autoridades, mediante una transacción de solo lectura.
+
+\begin{DoxyReturn}{Devuelve}
+Son todas las autoridades realizadas por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a4f8d4ac57f47a3a5f20dd2a754ef67c4}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a4f8d4ac57f47a3a5f20dd2a754ef67c4}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!getById@{getById}}
+\index{getById@{getById}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{getById()}{getById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} edu.\+app.\+server.\+service.\+Authority\+Service.\+get\+By\+Id (\begin{DoxyParamCaption}\item[{Long}]{id }\end{DoxyParamCaption})}
+
+Obtiene la autoridad mediante su id, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el id del Authority. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Retorna el valor existe o no existe que es retornado por el repositorio. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a9a98859e857776d52a1671a5c6492c17}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a9a98859e857776d52a1671a5c6492c17}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!getByName@{getByName}}
+\index{getByName@{getByName}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{getByName()}{getByName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} edu.\+app.\+server.\+service.\+Authority\+Service.\+get\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Realiza la busqueda por nombre, mediante una transacción de solo lectura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em name} & Es el nombre de la autoridad. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la autoridad que se busco. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a73329ee4fda461b90a44acdfc0b169d3}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a73329ee4fda461b90a44acdfc0b169d3}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!saveAuthority@{saveAuthority}}
+\index{saveAuthority@{saveAuthority}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{saveAuthority()}{saveAuthority()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} edu.\+app.\+server.\+service.\+Authority\+Service.\+save\+Authority (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}}]{authority }\end{DoxyParamCaption})}
+
+Guarda la autoridad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em authority} & Es la autoridad a guardar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la autoridad con el id asignado en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Repository 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a87843ab4f50c9fb126ede4df7af190e7}\label{classedu_1_1app_1_1server_1_1service_1_1_authority_service_a87843ab4f50c9fb126ede4df7af190e7}} 
+\index{edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}!updateAuthority@{updateAuthority}}
+\index{updateAuthority@{updateAuthority}!edu.app.server.service.AuthorityService@{edu.app.server.service.AuthorityService}}
+\doxysubsubsection{\texorpdfstring{updateAuthority()}{updateAuthority()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}} edu.\+app.\+server.\+service.\+Authority\+Service.\+update\+Authority (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_authority}{Authority}}}]{authority }\end{DoxyParamCaption})}
+
+Actualiza la autoridad, mediante una transacción de escritura.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em authority} & Es la autoridad a actualizar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la autoridad con el los valores actualizados en la base de datos. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Ver también}
+Authority\+Repository 
+\end{DoxySeeAlso}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/service/Authority\+Service.\+java\end{DoxyCompactItemize}

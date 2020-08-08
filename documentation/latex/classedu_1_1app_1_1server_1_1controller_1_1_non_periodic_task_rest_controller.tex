@@ -1,0 +1,106 @@
+\hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+controller.\+Non\+Periodic\+Task\+Rest\+Controller}
+\label{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller}\index{edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_ac174f62b89d962de7656d614847e0549}{Non\+Periodic\+Task\+Rest\+Controller}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_non_periodic_task_service}{Non\+Periodic\+Task\+Service}} non\+Periodic\+Task\+Service)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}} $>$ $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_a84d42f7d5bf41c98d4d93a4bde930054}{find\+All}} ()
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_a4c3a4c7262961658074a06fe187a6d71}{new\+Non\+Periodic\+Task}} (@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}} non\+Periodic\+Task)
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_aa4f148e430dc70c9218553ca93d11653}{find\+One}} (@Path\+Variable @Min(1) Long id)
+\item 
+void \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_ad794941a08507be291e85c00bbf2deea}{delete\+One}} (@Path\+Variable @Min(1) Long id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el controlador Rest de Non\+Periodic\+Task y admite conexiones con cualquier IP.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Non\+Periodic\+Task\+Service 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_ac174f62b89d962de7656d614847e0549}\label{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_ac174f62b89d962de7656d614847e0549}} 
+\index{edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}!NonPeriodicTaskRestController@{NonPeriodicTaskRestController}}
+\index{NonPeriodicTaskRestController@{NonPeriodicTaskRestController}!edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{NonPeriodicTaskRestController()}{NonPeriodicTaskRestController()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+controller.\+Non\+Periodic\+Task\+Rest\+Controller.\+Non\+Periodic\+Task\+Rest\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_non_periodic_task_service}{Non\+Periodic\+Task\+Service}}}]{non\+Periodic\+Task\+Service }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em non\+Periodic\+Task\+Service} & Es el servicio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_ad794941a08507be291e85c00bbf2deea}\label{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_ad794941a08507be291e85c00bbf2deea}} 
+\index{edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}!deleteOne@{deleteOne}}
+\index{deleteOne@{deleteOne}!edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{deleteOne()}{deleteOne()}}
+{\footnotesize\ttfamily void edu.\+app.\+server.\+controller.\+Non\+Periodic\+Task\+Rest\+Controller.\+delete\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que elimina una non\+Periodic\+Task por su mediante el metodo D\+E\+L\+E\+TE.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador del non\+Periodic\+Task. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_a84d42f7d5bf41c98d4d93a4bde930054}\label{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_a84d42f7d5bf41c98d4d93a4bde930054}} 
+\index{edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}!findAll@{findAll}}
+\index{findAll@{findAll}!edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily Response\+Entity$<$List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}}$>$ $>$ edu.\+app.\+server.\+controller.\+Non\+Periodic\+Task\+Rest\+Controller.\+find\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Es el servicio Rest que devuelve todos las non\+Periodic\+Task mediante el metodo G\+ET.
+
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_aa4f148e430dc70c9218553ca93d11653}\label{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_aa4f148e430dc70c9218553ca93d11653}} 
+\index{edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}!findOne@{findOne}}
+\index{findOne@{findOne}!edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{findOne()}{findOne()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}}$>$ edu.\+app.\+server.\+controller.\+Non\+Periodic\+Task\+Rest\+Controller.\+find\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que busca una non\+Periodic\+Task por id su mediante el metodo P\+O\+ST.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador del non\+Periodic\+Task. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_a4c3a4c7262961658074a06fe187a6d71}\label{classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_a4c3a4c7262961658074a06fe187a6d71}} 
+\index{edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}!newNonPeriodicTask@{newNonPeriodicTask}}
+\index{newNonPeriodicTask@{newNonPeriodicTask}!edu.app.server.controller.NonPeriodicTaskRestController@{edu.app.server.controller.NonPeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{newNonPeriodicTask()}{newNonPeriodicTask()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}}$>$ edu.\+app.\+server.\+controller.\+Non\+Periodic\+Task\+Rest\+Controller.\+new\+Non\+Periodic\+Task (\begin{DoxyParamCaption}\item[{@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task}{Non\+Periodic\+Task}}}]{non\+Periodic\+Task }\end{DoxyParamCaption})}
+
+Es el servicio Rest que crea una nueva non\+Periodic\+Task mediante el metodo P\+UT.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em non\+Periodic\+Task} & Es el non\+Periodic\+Task que se guardara. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/controller/Non\+Periodic\+Task\+Rest\+Controller.\+java\end{DoxyCompactItemize}

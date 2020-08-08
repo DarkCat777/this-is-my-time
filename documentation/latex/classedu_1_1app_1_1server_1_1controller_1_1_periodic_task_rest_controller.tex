@@ -1,0 +1,106 @@
+\hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+controller.\+Periodic\+Task\+Rest\+Controller}
+\label{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller}\index{edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_acb1307575562d5017192a1fbd181b733}{Periodic\+Task\+Rest\+Controller}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodic_task_service}{Periodic\+Task\+Service}} periodic\+Task\+Service)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}} $>$ $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_ad9bc8d68520c86f8ab47b5e428cfce48}{find\+All}} ()
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_afc149ae453e5d0c2a561fffdb0d1343b}{new\+Periodic\+Task}} (@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}} periodic\+Task)
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_acdd4cb0e9c63453c68e7b03c58816439}{find\+One}} (@Path\+Variable @Min(1) Long id)
+\item 
+void \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_ac5b5de6820735b098b3aa6e97cd2511a}{delete\+One}} (@Path\+Variable @Min(1) Long id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el controlador Rest de Periodic\+Task y admite conexiones con cualquier IP.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Periodic\+Task\+Service 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_acb1307575562d5017192a1fbd181b733}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_acb1307575562d5017192a1fbd181b733}} 
+\index{edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}!PeriodicTaskRestController@{PeriodicTaskRestController}}
+\index{PeriodicTaskRestController@{PeriodicTaskRestController}!edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{PeriodicTaskRestController()}{PeriodicTaskRestController()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+controller.\+Periodic\+Task\+Rest\+Controller.\+Periodic\+Task\+Rest\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodic_task_service}{Periodic\+Task\+Service}}}]{periodic\+Task\+Service }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodic\+Task\+Service} & Es el servicio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_ac5b5de6820735b098b3aa6e97cd2511a}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_ac5b5de6820735b098b3aa6e97cd2511a}} 
+\index{edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}!deleteOne@{deleteOne}}
+\index{deleteOne@{deleteOne}!edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{deleteOne()}{deleteOne()}}
+{\footnotesize\ttfamily void edu.\+app.\+server.\+controller.\+Periodic\+Task\+Rest\+Controller.\+delete\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que elimina una Periodic\+Task por su mediante el metodo D\+E\+L\+E\+TE.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador de el periodic\+Task. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_ad9bc8d68520c86f8ab47b5e428cfce48}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_ad9bc8d68520c86f8ab47b5e428cfce48}} 
+\index{edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}!findAll@{findAll}}
+\index{findAll@{findAll}!edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily Response\+Entity$<$List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}}$>$ $>$ edu.\+app.\+server.\+controller.\+Periodic\+Task\+Rest\+Controller.\+find\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Es el servicio Rest que devuelve todos las periodic\+Task mediante el metodo G\+ET.
+
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_acdd4cb0e9c63453c68e7b03c58816439}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_acdd4cb0e9c63453c68e7b03c58816439}} 
+\index{edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}!findOne@{findOne}}
+\index{findOne@{findOne}!edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{findOne()}{findOne()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}}$>$ edu.\+app.\+server.\+controller.\+Periodic\+Task\+Rest\+Controller.\+find\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que busca una Periodic\+Task por id su mediante el metodo P\+O\+ST.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador de el periodic\+Task. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_afc149ae453e5d0c2a561fffdb0d1343b}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_afc149ae453e5d0c2a561fffdb0d1343b}} 
+\index{edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}!newPeriodicTask@{newPeriodicTask}}
+\index{newPeriodicTask@{newPeriodicTask}!edu.app.server.controller.PeriodicTaskRestController@{edu.app.server.controller.PeriodicTaskRestController}}
+\doxysubsubsection{\texorpdfstring{newPeriodicTask()}{newPeriodicTask()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}}$>$ edu.\+app.\+server.\+controller.\+Periodic\+Task\+Rest\+Controller.\+new\+Periodic\+Task (\begin{DoxyParamCaption}\item[{@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodic_task}{Periodic\+Task}}}]{periodic\+Task }\end{DoxyParamCaption})}
+
+Es el servicio Rest que crea una nueva periodic\+Task mediante el metodo P\+UT.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodic\+Task} & Es el peridic\+Task que se guardara. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/controller/Periodic\+Task\+Rest\+Controller.\+java\end{DoxyCompactItemize}

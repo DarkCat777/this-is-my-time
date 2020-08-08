@@ -1,0 +1,106 @@
+\hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller}{}\doxysection{Referencia de la Clase edu.\+app.\+server.\+controller.\+Periodicity\+Rest\+Controller}
+\label{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller}\index{edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aa6d276e43b9e671be050c39db8a08f8a}{Periodicity\+Rest\+Controller}} (\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service}{Periodicity\+Service}} periodicity\+Service)
+\item 
+Response\+Entity$<$ List$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} $>$ $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_adc9c56e0f263dcaf4b62e63bbff255c3}{find\+All}} ()
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aaa19054e6635fa3a6a9fcfdf36b14cc9}{new\+Periodicity}} (@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} periodicity)
+\item 
+Response\+Entity$<$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}} $>$ \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aaa2755e82c9eb0bb4c6c1410aa4ac07a}{find\+One}} (@Path\+Variable @Min(1) Long id)
+\item 
+void \mbox{\hyperlink{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_a462bd8414eeb4baa3db25e5094cc2415}{delete\+One}} (@Path\+Variable @Min(1) Long id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Es el controlador Rest de Periodicity y admite conexiones con cualquier IP.
+
+\begin{DoxyAuthor}{Autor}
+Erick David Carpio Hachiri 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{Ver también}
+Periodicity\+Service 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aa6d276e43b9e671be050c39db8a08f8a}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aa6d276e43b9e671be050c39db8a08f8a}} 
+\index{edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}!PeriodicityRestController@{PeriodicityRestController}}
+\index{PeriodicityRestController@{PeriodicityRestController}!edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}}
+\doxysubsubsection{\texorpdfstring{PeriodicityRestController()}{PeriodicityRestController()}}
+{\footnotesize\ttfamily edu.\+app.\+server.\+controller.\+Periodicity\+Rest\+Controller.\+Periodicity\+Rest\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1app_1_1server_1_1service_1_1_periodicity_service}{Periodicity\+Service}}}]{periodicity\+Service }\end{DoxyParamCaption})}
+
+Contructor que injecta las dependencias de Spring container.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodicity\+Service} & Es el servicio que sera injectado por Spring. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_a462bd8414eeb4baa3db25e5094cc2415}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_a462bd8414eeb4baa3db25e5094cc2415}} 
+\index{edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}!deleteOne@{deleteOne}}
+\index{deleteOne@{deleteOne}!edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}}
+\doxysubsubsection{\texorpdfstring{deleteOne()}{deleteOne()}}
+{\footnotesize\ttfamily void edu.\+app.\+server.\+controller.\+Periodicity\+Rest\+Controller.\+delete\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que elimina una periodicidad por su mediante el metodo D\+E\+L\+E\+TE.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador del periodicity. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_adc9c56e0f263dcaf4b62e63bbff255c3}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_adc9c56e0f263dcaf4b62e63bbff255c3}} 
+\index{edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}!findAll@{findAll}}
+\index{findAll@{findAll}!edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily Response\+Entity$<$List$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}$>$ $>$ edu.\+app.\+server.\+controller.\+Periodicity\+Rest\+Controller.\+find\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Es el servicio Rest que devuelve todos las periodicidades mediante el metodo G\+ET.
+
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aaa2755e82c9eb0bb4c6c1410aa4ac07a}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aaa2755e82c9eb0bb4c6c1410aa4ac07a}} 
+\index{edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}!findOne@{findOne}}
+\index{findOne@{findOne}!edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}}
+\doxysubsubsection{\texorpdfstring{findOne()}{findOne()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}$>$ edu.\+app.\+server.\+controller.\+Periodicity\+Rest\+Controller.\+find\+One (\begin{DoxyParamCaption}\item[{@Path\+Variable @Min(1) Long}]{id }\end{DoxyParamCaption})}
+
+Es el servicio Rest que busca una periodicidad por id su mediante el metodo P\+O\+ST.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Es el identificador del periodicity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aaa19054e6635fa3a6a9fcfdf36b14cc9}\label{classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller_aaa19054e6635fa3a6a9fcfdf36b14cc9}} 
+\index{edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}!newPeriodicity@{newPeriodicity}}
+\index{newPeriodicity@{newPeriodicity}!edu.app.server.controller.PeriodicityRestController@{edu.app.server.controller.PeriodicityRestController}}
+\doxysubsubsection{\texorpdfstring{newPeriodicity()}{newPeriodicity()}}
+{\footnotesize\ttfamily Response\+Entity$<$\mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}$>$ edu.\+app.\+server.\+controller.\+Periodicity\+Rest\+Controller.\+new\+Periodicity (\begin{DoxyParamCaption}\item[{@Valid @Request\+Body \mbox{\hyperlink{classedu_1_1app_1_1server_1_1model_1_1_periodicity}{Periodicity}}}]{periodicity }\end{DoxyParamCaption})}
+
+Es el servicio Rest que crea una nueva periodicidad mediante el metodo P\+UT.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em periodicity} & Es la periodicidad que se guardara. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Es la respuesta que dara el servicio. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erick/\+Idea\+Projects/this-\/is-\/my-\/time/src/main/java/edu/app/server/controller/Periodicity\+Rest\+Controller.\+java\end{DoxyCompactItemize}

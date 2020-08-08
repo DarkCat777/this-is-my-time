@@ -4,11 +4,20 @@ plugins {
     id 'java'
     id 'jacoco'
     id 'info.solidsoft.pitest' version '1.5.1'
+    id 'application'
 }
 
+mainClassName = "edu.app.server.ServerRestApplication"
 group = 'edu.app.server'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+    destinationDir(file("$rootDir/build/lib"))
+}
 
 configurations {
     compileOnly {
@@ -48,7 +57,7 @@ test {
     useJUnitPlatform()
 }
 
-pitest{
+pitest {
     timestampedReports = false
     junit5PluginVersion = '0.12'
 }
