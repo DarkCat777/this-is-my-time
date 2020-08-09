@@ -58,8 +58,7 @@ public class User {
     /**
      * Es un atributo exclusivo de la clase de java, que representa la relación de la clase con su autoridad respectiva.
      */
-    @JsonIgnore
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable
     private Set<Authority> authorities = new HashSet<>();
     /**

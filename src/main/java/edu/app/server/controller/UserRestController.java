@@ -2,6 +2,7 @@ package edu.app.server.controller;
 
 import edu.app.server.model.User;
 import edu.app.server.service.UserService;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -17,6 +18,7 @@ import java.util.List;
  * @author Erick David Carpio Hachiri
  * @see UserService
  */
+@Log4j2
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/user")
@@ -54,9 +56,10 @@ public class UserRestController {
      * @param user Es el usuario que se guardara en la base de datos.
      * @return Es la respuesta que dara el servicio.
      */
-    @PreAuthorize("hasAuthority('User')")
+    @PreAuthorize("hasAuthority('User') or hasAuthority('Administrator')")
     @PutMapping("/new")
     public ResponseEntity<User> addUser(@Valid @RequestBody User user) {
+        user.getAuthorities().forEach(System.out::println);
         User newUser = this.userService.saveUser(user);
         return ResponseEntity.ok(newUser);
     }

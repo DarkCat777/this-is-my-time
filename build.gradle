@@ -16,7 +16,7 @@ jar {
     manifest {
         attributes 'Main-Class': mainClassName
     }
-    destinationDir(file("$rootDir/build/lib"))
+    destinationDir(file("$rootDir/build/libs"))
 }
 
 configurations {
@@ -36,8 +36,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.0.RELEASE'
     implementation 'javax.servlet:javax.servlet-api:4.0.1'
-    // Creo que no se necesita la depencia jackson :'v aun no lo probe sin eso.
-    // compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
