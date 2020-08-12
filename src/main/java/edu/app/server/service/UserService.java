@@ -1,6 +1,5 @@
 package edu.app.server.service;
 
-import edu.app.server.model.Authority;
 import edu.app.server.model.User;
 import edu.app.server.repository.AuthorityRepository;
 import edu.app.server.repository.UserRepository;
@@ -19,8 +18,9 @@ import java.util.Optional;
  * @author Erick David Carpio Hachiri
  * @see User
  */
-@Service
+
 @Log4j2
+@Service
 public class UserService {
     /**
      * Es el repositorio de Authority.

@@ -1,7 +1,5 @@
 package edu.app.server.config;
 
-import static edu.app.server.config.Constants.*;
-
 import edu.app.server.model.Authority;
 import edu.app.server.model.Resource;
 import edu.app.server.service.AuthorityService;
@@ -26,10 +24,10 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+
+import static edu.app.server.config.Constants.LOGIN_URL;
 
 @Log4j2
 @Configuration

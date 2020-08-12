@@ -1,7 +1,6 @@
 package edu.app.server.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import edu.app.server.model.Authority;
 import edu.app.server.model.User;
 import edu.app.server.service.UserService;
 import edu.app.server.utils.Token;

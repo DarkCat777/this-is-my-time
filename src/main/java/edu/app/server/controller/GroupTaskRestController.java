@@ -1,7 +1,6 @@
 package edu.app.server.controller;
 
 import edu.app.server.model.GroupTask;
-import edu.app.server.service.AuthorityService;
 import edu.app.server.service.GroupTaskService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

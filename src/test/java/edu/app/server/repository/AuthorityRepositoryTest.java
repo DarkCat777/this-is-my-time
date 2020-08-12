@@ -8,7 +8,6 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.orm.jpa.JpaObjectRetrievalFailureException;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 @DataJpaTest
 public class AuthorityRepositoryTest {

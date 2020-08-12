@@ -1,7 +1,6 @@
 package edu.app.server.repository;
 
 import edu.app.server.model.NonPeriodicTask;
-import edu.app.server.model.PeriodicTask;
 import edu.app.server.model.State;
 import edu.app.server.model.User;
 import org.junit.jupiter.api.BeforeEach;

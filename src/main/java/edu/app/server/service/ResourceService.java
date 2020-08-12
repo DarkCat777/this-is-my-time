@@ -1,8 +1,6 @@
 package edu.app.server.service;
 
-import edu.app.server.model.Authority;
 import edu.app.server.model.Resource;
-import edu.app.server.repository.AuthorityRepository;
 import edu.app.server.repository.ResourceRepository;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

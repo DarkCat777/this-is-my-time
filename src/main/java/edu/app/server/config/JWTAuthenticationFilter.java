@@ -1,7 +1,6 @@
 package edu.app.server.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import edu.app.server.model.User;
 import edu.app.server.service.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
