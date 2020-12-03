@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "Project: \"This is my time\"", "index.html", [
+    [ "Paquetes", "namespaces.html", [
+      [ "Paquetes", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Clases", "annotated.html", [
       [ "Lista de clases", "annotated.html", "annotated_dup" ],
       [ "Índice de clases", "classes.html", null ],

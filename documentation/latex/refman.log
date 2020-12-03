@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  8 AUG 2020 01:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  12 AUG 2020 13:34
 entering extended mode
 **./refman.tex
 (refman.tex
@@ -887,10 +887,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 6.29996pt on input line 171.
  [1] [2] [3] [4] [5]
-Underfull \vbox (badness 2865) has occurred while \output is active []
-
- [6]
-[7] [8
+[6] [7] [8
 
 ]
 Package hyperref Info: Option `pageanchor' set `true' on input line 173.
@@ -908,34 +905,91 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 176.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 22.39185pt on input line 176.
-(hierarchy.tex
+(namespaces.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
- [1
+) [1
 
-])
+]
 LaTeX Info: Redefining \. on input line 178.
 LaTeX Info: Redefining \% on input line 178.
- [2]
-Cap\'{\i }tulo 2.
-(annotated.tex [3
+ [2
 
-])
+]
+Cap\'{\i }tulo 2.
+(hierarchy.tex [3])
 LaTeX Info: Redefining \. on input line 180.
 LaTeX Info: Redefining \% on input line 180.
  [4]
 Cap\'{\i }tulo 3.
-(classedu_1_1app_1_1server_1_1error_1_1_api_error.tex
+(annotated.tex [5
+
+])
+LaTeX Info: Redefining \. on input line 182.
+LaTeX Info: Redefining \% on input line 182.
+ [6]
+Cap\'{\i }tulo 4.
+(namespaceedu_1_1app_1_1server.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 30.
+
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+ []
+
+) (namespaceedu_1_1app_1_1server_1_1config.tex [7
+
+]
+Underfull \hbox (badness 10000) detected at line 25
+[][][]
+ []
+
+) (namespaceedu_1_1app_1_1server_1_1controller.tex
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+) (namespaceedu_1_1app_1_1server_1_1error.tex
+Underfull \hbox (badness 10000) detected at line 15
+[][][]
+ []
+
+) (namespaceedu_1_1app_1_1server_1_1model.tex
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+ [8]
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+) (namespaceedu_1_1app_1_1server_1_1repository.tex
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
+) (namespaceedu_1_1app_1_1server_1_1service.tex
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [9]
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
 )
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
+ [10]
+Cap\'{\i }tulo 5.
+(classedu_1_1app_1_1server_1_1error_1_1_api_error.tex)
 (classedu_1_1app_1_1server_1_1model_1_1_authority.tex
 
 pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1model_1_1_authori
 ty.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
  <./classedu_1_1app_1_1server_1_1model_1_1_authority.pdf>
-<classedu_1_1app_1_1server_1_1model_1_1_authority.pdf, id=1579, 501.875pt x 202
+<classedu_1_1app_1_1server_1_1model_1_1_authority.pdf, id=1789, 501.875pt x 202
 .7575pt>
 File: classedu_1_1app_1_1server_1_1model_1_1_authority.pdf Graphic file (type p
 df)
@@ -955,7 +1009,7 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 24.
- [5
+ [11
 
 ])
 (interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository.tex
@@ -965,7 +1019,7 @@ pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
 t version <1.5> allowed
  <./interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository.pdf>
 <interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository.pdf, id=1
-598, 501.875pt x 89.33376pt>
+808, 501.875pt x 89.33376pt>
 File: interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository.pdf 
 Graphic file (type pdf)
 <use interfaceedu_1_1app_1_1server_1_1repository_1_1_authority_repository.pdf>
@@ -979,7 +1033,7 @@ Underfull \hbox (badness 10000) detected at line 19
 
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
-[6]
+[12]
 Underfull \hbox (badness 10000) detected at line 22
 [][][]
  []
@@ -994,17 +1048,12 @@ Underfull \hbox (badness 10000) detected at line 46
 [][][]
  []
 
-) (classedu_1_1app_1_1server_1_1repository_1_1_authority_repository_test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/repository/Authority[]Repository[]
- []
-
-) (classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller.tex
+) (classedu_1_1app_1_1server_1_1repository_1_1_authority_repository_test.tex)
+(classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller.tex
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 
-[7]
+[13]
 Underfull \hbox (badness 10000) detected at line 21
 [][][]
  []
@@ -1016,7 +1065,7 @@ Underfull \hbox (badness 10000) detected at line 24
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[8]
+[14]
 Underfull \hbox (badness 10000) detected at line 72
 [][][]
  []
@@ -1031,19 +1080,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
- [9]
+ [15]
 Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
 
 )
 (classedu_1_1app_1_1server_1_1controller_1_1_authority_rest_controller_test.tex
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/controller/Authority[]Rest[]Controller[]
- []
-
 ) (classedu_1_1app_1_1server_1_1service_1_1_authority_service.tex
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
@@ -1056,7 +1099,7 @@ Underfull \hbox (badness 10000) detected at line 28
 
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
-[10]
+[16]
 Underfull \hbox (badness 10000) detected at line 63
 [][][]
  []
@@ -1078,7 +1121,7 @@ Underfull \hbox (badness 10000) detected at line 80
 
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
-[11]
+[17]
 Underfull \hbox (badness 10000) detected at line 96
 [][][]
  []
@@ -1100,7 +1143,7 @@ Underfull \hbox (badness 10000) detected at line 118
 
 LaTeX Info: Redefining \. on input line 134.
 LaTeX Info: Redefining \% on input line 134.
-[12]
+[18]
 Underfull \hbox (badness 10000) detected at line 134
 [][][]
  []
@@ -1125,7 +1168,7 @@ Underfull \hbox (badness 10000) detected at line 156
 (classedu_1_1app_1_1server_1_1config_1_1_constants.tex
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [13])
+ [19])
 (classedu_1_1app_1_1server_1_1utils_1_1_date_time_test.tex)
 (classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller.tex
 
@@ -1133,7 +1176,7 @@ pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1error_1_1_error_r
 est_controller.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
  <./classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller.pdf>
-<classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller.pdf, id=1718, 501
+<classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller.pdf, id=1926, 501
 .875pt x 158.5925pt>
 File: classedu_1_1app_1_1server_1_1error_1_1_error_rest_controller.pdf Graphic 
 file (type pdf)
@@ -1150,7 +1193,7 @@ er \T1/phv/m/n/10 (Missing[]Servlet[]Request[]
 
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
-[14]
+[20]
 Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
@@ -1168,7 +1211,7 @@ Underfull \hbox (badness 10000) detected at line 55
 ) (classedu_1_1app_1_1server_1_1model_1_1_group_task.tex
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
- [15])
+ [21])
 (interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository.tex
 
 pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
@@ -1176,7 +1219,7 @@ pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
 st version <1.5> allowed
  <./interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository.pdf>
 <interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository.pdf, id=
-1759, 501.875pt x 87.32625pt>
+1969, 501.875pt x 87.32625pt>
 File: interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository.pdf
  Graphic file (type pdf)
 <use interfaceedu_1_1app_1_1server_1_1repository_1_1_group_task_repository.pdf>
@@ -1196,7 +1239,7 @@ Underfull \hbox (badness 10000) detected at line 26
 
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
-[16]
+[22]
 Underfull \hbox (badness 10000) detected at line 45
 [][][]
  []
@@ -1216,23 +1259,12 @@ Underfull \hbox (badness 10000) detected at line 67
 [][][]
  []
 
+) (classedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_test.tex)
+(classedu_1_1app_1_1server_1_1controller_1_1_group_task_rest_controller.tex
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/repository/Group[]Task[]Repository.[]
- []
-
-) (classedu_1_1app_1_1server_1_1repository_1_1_group_task_repository_test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/repository/Group[]Task[]Repository[]
- []
-
-) (classedu_1_1app_1_1server_1_1controller_1_1_group_task_rest_controller.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-
-[17]
+[23]
 Underfull \hbox (badness 10000) detected at line 21
 [][][]
  []
@@ -1244,7 +1276,7 @@ Underfull \hbox (badness 10000) detected at line 24
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[18]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []\T1/pcr/m/n/8 Response[]Entity$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 List$\OML/cmm/
 m/it/8 <$[]$>$ $>$ \T1/pcr/m/n/8 edu.[]app.[]server.[]controller.[]Group[]Task[
@@ -1267,7 +1299,7 @@ Overfull \vbox (4.90843pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 98.
 LaTeX Info: Redefining \% on input line 98.
 
-[19]
+[25]
 Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
@@ -1286,7 +1318,7 @@ Underfull \hbox (badness 10000) detected at line 28
 
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
-[20]
+[26]
 Underfull \hbox (badness 10000) detected at line 47
 [][][]
  []
@@ -1303,7 +1335,7 @@ Underfull \hbox (badness 10000) detected at line 77
 
 LaTeX Info: Redefining \. on input line 92.
 LaTeX Info: Redefining \% on input line 92.
-[21]
+[27]
 Underfull \hbox (badness 10000) detected at line 93
 [][][]
  []
@@ -1325,7 +1357,7 @@ Underfull \hbox (badness 10000) detected at line 128
 
 LaTeX Info: Redefining \. on input line 136.
 LaTeX Info: Redefining \% on input line 136.
-[22]
+[28]
 Underfull \hbox (badness 10000) detected at line 144
 [][][]
  []
@@ -1338,8 +1370,8 @@ pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1config_1_1_j_w_t_
 authentication_filter.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
  <./classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authentication_filter.pdf>
-<classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authentication_filter.pdf, id=18
-73, 501.875pt x 141.52875pt>
+<classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authentication_filter.pdf, id=20
+83, 501.875pt x 141.52875pt>
 File: classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authentication_filter.pdf G
 raphic file (type pdf)
 <use classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authentication_filter.pdf>
@@ -1349,13 +1381,13 @@ cation_filter.pdf  used on input line 6.
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 
-[23]) (classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authorization_filter.tex
+[29]) (classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authorization_filter.tex
 
 pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1config_1_1_j_w_t_
 authorization_filter.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
  <./classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authorization_filter.pdf>
-<classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authorization_filter.pdf, id=188
+<classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authorization_filter.pdf, id=209
 7, 501.875pt x 144.54pt>
 File: classedu_1_1app_1_1server_1_1config_1_1_j_w_t_authorization_filter.pdf Gr
 aphic file (type pdf)
@@ -1370,7 +1402,7 @@ pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1model_1_1_non_per
 iodic_task.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
  <./classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task.pdf>
-<classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task.pdf, id=1894, 501.875
+<classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task.pdf, id=2104, 501.875
 pt x 164.615pt>
 File: classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task.pdf Graphic file
  (type pdf)
@@ -1380,7 +1412,7 @@ sk.pdf  used on input line 6.
 (pdftex.def)             Requested size: 173.49167pt x 56.9055pt.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- [24]
+ [30]
 Underfull \hbox (badness 10000) detected at line 21
 [][][]
  []
@@ -1395,7 +1427,7 @@ t at most version <1.5> allowed
  <./interfaceedu_1_1app_1_1server_1_1repository_1_1_non_periodic_task_repositor
 y.pdf>
 <interfaceedu_1_1app_1_1server_1_1repository_1_1_non_periodic_task_repository.p
-df, id=1920, 501.875pt x 81.30376pt>
+df, id=2130, 501.875pt x 81.30376pt>
 File: interfaceedu_1_1app_1_1server_1_1repository_1_1_non_periodic_task_reposit
 ory.pdf Graphic file (type pdf)
 <use interfaceedu_1_1app_1_1server_1_1repository_1_1_non_periodic_task_reposito
@@ -1405,7 +1437,7 @@ riodic_task_repository.pdf  used on input line 6.
 (pdftex.def)             Requested size: 351.27946pt x 56.9055pt.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [25]
+ [31]
 Underfull \hbox (badness 10000) detected at line 21
 [][][]
  []
@@ -1427,7 +1459,7 @@ Underfull \hbox (badness 10000) detected at line 48
 
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
-[26]
+[32]
 Underfull \hbox (badness 10000) detected at line 64
 [][][]
  []
@@ -1437,21 +1469,9 @@ Underfull \hbox (badness 10000) detected at line 67
 [][][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/repository/Non[]Periodic[]Task[]
- []
-
 )
 (classedu_1_1app_1_1server_1_1repository_1_1_non_periodic_task_repository_test.
-tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/repository/Non[]Periodic[]Task[]
- []
-
-)
+tex)
 (classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller.
 tex
 Underfull \hbox (badness 10000) detected at line 21
@@ -1463,9 +1483,9 @@ Underfull \hbox (badness 10000) detected at line 24
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-[27]
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+[33]
 Overfull \hbox (16.9825pt too wide) in paragraph at lines 63--64
 []\T1/pcr/m/n/8 Response[]Entity$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 List$\OML/cmm/
 m/it/8 <$[]$>$ $>$ \T1/pcr/m/n/8 edu.[]app.[]server.[]controller.[]Non[]Periodi
@@ -1485,7 +1505,7 @@ p.[]server.[]controller.[]Non[]Periodic[]Task[]Rest[]Controller.[]find[]
 
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[28]
+[34]
 Underfull \hbox (badness 10000) detected at line 83
 [][][]
  []
@@ -1501,25 +1521,14 @@ Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/controller/Non[]Periodic[]Task[]Rest[]
- []
-
 )
 (classedu_1_1app_1_1server_1_1controller_1_1_non_periodic_task_rest_controller_
-test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/controller/Non[]Periodic[]Task[]Rest[]
- []
-
-) (classedu_1_1app_1_1server_1_1service_1_1_non_periodic_task_service.tex
+test.tex)
+(classedu_1_1app_1_1server_1_1service_1_1_non_periodic_task_service.tex
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 
-[29]
+[35]
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -1531,7 +1540,7 @@ Underfull \hbox (badness 10000) detected at line 28
 
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
-[30]
+[36]
 Underfull \hbox (badness 10000) detected at line 63
 [][][]
  []
@@ -1548,7 +1557,7 @@ Underfull \hbox (badness 10000) detected at line 90
 
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
-[31]
+[37]
 Underfull \hbox (badness 10000) detected at line 106
 [][][]
  []
@@ -1565,19 +1574,9 @@ Underfull \hbox (badness 10000) detected at line 138
 
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/service/Non[]Periodic[]Task[]Service.[]
- []
-
-) (classedu_1_1app_1_1server_1_1service_1_1_non_periodic_task_service_test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/service/Non[]Periodic[]Task[]Service[]
- []
-
-) (classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task_test.tex)
+[38])
+(classedu_1_1app_1_1server_1_1service_1_1_non_periodic_task_service_test.tex)
+(classedu_1_1app_1_1server_1_1model_1_1_non_periodic_task_test.tex)
 (classedu_1_1app_1_1server_1_1model_1_1_periodicity.tex)
 (interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository.tex
 
@@ -1586,7 +1585,7 @@ pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
 ost version <1.5> allowed
  <./interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository.pdf>
 <interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository.pdf, id
-=2049, 501.875pt x 87.32625pt>
+=2259, 501.875pt x 87.32625pt>
 File: interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository.pd
 f Graphic file (type pdf)
 <use interfaceedu_1_1app_1_1server_1_1repository_1_1_periodicity_repository.pdf
@@ -1601,15 +1600,9 @@ Underfull \hbox (badness 10000) detected at line 14
 
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
-[33]
+[39]
 Underfull \hbox (badness 10000) detected at line 17
 [][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/repository/Periodicity[]Repository.[]
  []
 
 ) (classedu_1_1app_1_1server_1_1controller_1_1_periodicity_rest_controller.tex
@@ -1624,7 +1617,7 @@ Underfull \hbox (badness 10000) detected at line 24
 
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
-[34]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []\T1/pcr/m/n/8 Response[]Entity$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 List$\OML/cmm/
 m/it/8 <$[]$>$ $>$ \T1/pcr/m/n/8 edu.[]app.[]server.[]controller.[]Periodicity[
@@ -1638,7 +1631,7 @@ Underfull \hbox (badness 10000) detected at line 67
 
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
-[35]
+[41]
 Underfull \hbox (badness 10000) detected at line 83
 [][][]
  []
@@ -1659,7 +1652,7 @@ Underfull \hbox (badness 10000) detected at line 99
 ex) (classedu_1_1app_1_1server_1_1service_1_1_periodicity_service.tex
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- [36]
+ [42]
 Underfull \hbox (badness 10000) detected at line 23
 [][][]
  []
@@ -1676,7 +1669,7 @@ Underfull \hbox (badness 10000) detected at line 61
 
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
-[37]
+[43]
 Underfull \hbox (badness 10000) detected at line 64
 [][][]
  []
@@ -1703,7 +1696,7 @@ Underfull \hbox (badness 10000) detected at line 97
 
 LaTeX Info: Redefining \. on input line 112.
 LaTeX Info: Redefining \% on input line 112.
-[38]
+[44]
 Underfull \hbox (badness 10000) detected at line 113
 [][][]
  []
@@ -1726,14 +1719,14 @@ Underfull \hbox (badness 10000) detected at line 135
 ) (enumedu_1_1app_1_1server_1_1model_1_1_periodicity_type.tex
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- [39])
+ [45])
 (classedu_1_1app_1_1server_1_1model_1_1_periodic_task.tex
 
 pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1model_1_1_periodi
 c_task.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
  <./classedu_1_1app_1_1server_1_1model_1_1_periodic_task.pdf>
-<classedu_1_1app_1_1server_1_1model_1_1_periodic_task.pdf, id=2159, 501.875pt x
+<classedu_1_1app_1_1server_1_1model_1_1_periodic_task.pdf, id=2369, 501.875pt x
  181.67876pt>
 File: classedu_1_1app_1_1server_1_1model_1_1_periodic_task.pdf Graphic file (ty
 pe pdf)
@@ -1743,7 +1736,7 @@ df  used on input line 6.
 (pdftex.def)             Requested size: 157.19547pt x 56.9055pt.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [40]
+ [46]
 Underfull \hbox (badness 10000) detected at line 21
 [][][]
  []
@@ -1757,7 +1750,7 @@ pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
  <./interfaceedu_1_1app_1_1server_1_1repository_1_1_periodic_task_repository.pd
 f>
 <interfaceedu_1_1app_1_1server_1_1repository_1_1_periodic_task_repository.pdf, 
-id=2178, 501.875pt x 85.31876pt>
+id=2388, 501.875pt x 85.31876pt>
 File: interfaceedu_1_1app_1_1server_1_1repository_1_1_periodic_task_repository.
 pdf Graphic file (type pdf)
 <use interfaceedu_1_1app_1_1server_1_1repository_1_1_periodic_task_repository.p
@@ -1777,10 +1770,10 @@ Underfull \hbox (badness 10000) detected at line 24
 
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
-[41]
+[47]
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [42]
+ [48]
 Underfull \hbox (badness 10000) detected at line 45
 [][][]
  []
@@ -1801,18 +1794,12 @@ Underfull \hbox (badness 10000) detected at line 67
  []
 
 )
-(classedu_1_1app_1_1server_1_1repository_1_1_periodic_task_repository_test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/repository/Periodic[]Task[]Repository[]
- []
-
-)
+(classedu_1_1app_1_1server_1_1repository_1_1_periodic_task_repository_test.tex)
 (classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 
-[43]
+[49]
 Underfull \hbox (badness 10000) detected at line 21
 [][][]
  []
@@ -1824,7 +1811,7 @@ Underfull \hbox (badness 10000) detected at line 24
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[44]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []\T1/pcr/m/n/8 Response[]Entity$\OML/cmm/m/it/8 <$\T1/pcr/m/n/8 List$\OML/cmm/
 m/it/8 <$[]$>$ $>$ \T1/pcr/m/n/8 edu.[]app.[]server.[]controller.[]Periodic[]Ta
@@ -1843,26 +1830,14 @@ Underfull \hbox (badness 10000) detected at line 83
 
 LaTeX Info: Redefining \. on input line 98.
 LaTeX Info: Redefining \% on input line 98.
-[45]
+[51]
 Underfull \hbox (badness 10000) detected at line 99
 [][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/controller/Periodic[]Task[]Rest[]
  []
 
 )
 (classedu_1_1app_1_1server_1_1controller_1_1_periodic_task_rest_controller_test
-.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/controller/Periodic[]Task[]Rest[]
- []
-
-) (classedu_1_1app_1_1server_1_1service_1_1_periodic_task_service.tex
+.tex) (classedu_1_1app_1_1server_1_1service_1_1_periodic_task_service.tex
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -1872,149 +1847,8 @@ Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-[46]
-Underfull \hbox (badness 10000) detected at line 63
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 66
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 77
-[][][]
- []
-
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-[47]
-Underfull \hbox (badness 10000) detected at line 80
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 96
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 99
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 115
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 118
-[][][]
- []
-
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
-[48]
-Underfull \hbox (badness 10000) detected at line 134
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 137
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 153
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 156
-[][][]
- []
-
-) (classedu_1_1app_1_1server_1_1service_1_1_periodic_task_service_test.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/service/Periodic[]Task[]Service[]Test.[]
- []
-
-) (classedu_1_1app_1_1server_1_1model_1_1_periodic_task_test.tex)
-(classedu_1_1app_1_1server_1_1model_1_1_resource.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
- [50])
-(interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.tex
-
-pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
-1_resource_repository.pdf): PDF inclusion: found PDF version <1.7>, but at most
- version <1.5> allowed
- <./interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf>
-<interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf, id=23
-12, 501.875pt x 88.33pt>
-File: interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf G
-raphic file (type pdf)
-<use interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf>
-Package pdftex.def Info: interfaceedu_1_1app_1_1server_1_1repository_1_1_resour
-ce_repository.pdf  used on input line 6.
-(pdftex.def)             Requested size: 323.32782pt x 56.9055pt.
-
-Underfull \hbox (badness 10000) detected at line 19
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 22
-[][][]
- []
-
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-[51]
-Underfull \hbox (badness 10000) detected at line 43
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 46
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/main/j
-ava/edu/app/server/repository/Resource[]Repository.[]
- []
-
-) (classedu_1_1app_1_1server_1_1repository_1_1_resource_repository_test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/repository/Resource[]Repository[]
- []
-
-) (classedu_1_1app_1_1server_1_1service_1_1_resource_service.tex
-Underfull \hbox (badness 10000) detected at line 25
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 28
-[][][]
- []
-
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 [52]
 Underfull \hbox (badness 10000) detected at line 63
 [][][]
@@ -2079,10 +1913,134 @@ Underfull \hbox (badness 10000) detected at line 156
 [][][]
  []
 
-) (classedu_1_1app_1_1server_1_1service_1_1_resource_service_test.tex
+) (classedu_1_1app_1_1server_1_1service_1_1_periodic_task_service_test.tex
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- [55])
+
+[55]) (classedu_1_1app_1_1server_1_1model_1_1_periodic_task_test.tex)
+(classedu_1_1app_1_1server_1_1model_1_1_resource.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+ [56])
+(interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.tex
+
+pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
+1_resource_repository.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+ <./interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf>
+<interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf, id=25
+22, 501.875pt x 88.33pt>
+File: interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf G
+raphic file (type pdf)
+<use interfaceedu_1_1app_1_1server_1_1repository_1_1_resource_repository.pdf>
+Package pdftex.def Info: interfaceedu_1_1app_1_1server_1_1repository_1_1_resour
+ce_repository.pdf  used on input line 6.
+(pdftex.def)             Requested size: 323.32782pt x 56.9055pt.
+
+Underfull \hbox (badness 10000) detected at line 19
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+[57]
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 46
+[][][]
+ []
+
+) (classedu_1_1app_1_1server_1_1repository_1_1_resource_repository_test.tex)
+(classedu_1_1app_1_1server_1_1service_1_1_resource_service.tex
+Underfull \hbox (badness 10000) detected at line 25
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+[58]
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+ [59]
+Underfull \hbox (badness 10000) detected at line 63
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 66
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 77
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 80
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+[60]
+Underfull \hbox (badness 10000) detected at line 96
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 99
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 115
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+[61]
+Underfull \hbox (badness 10000) detected at line 134
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 137
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 153
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 156
+[][][]
+ []
+
+) (classedu_1_1app_1_1server_1_1service_1_1_resource_service_test.tex)
 (classedu_1_1app_1_1server_1_1model_1_1_resource_test.tex)
 (classedu_1_1app_1_1server_1_1config_1_1_security_config.tex
 
@@ -2090,7 +2048,7 @@ pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1config_1_1_securi
 ty_config.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
  <./classedu_1_1app_1_1server_1_1config_1_1_security_config.pdf>
-<classedu_1_1app_1_1server_1_1config_1_1_security_config.pdf, id=2385, 501.875p
+<classedu_1_1app_1_1server_1_1config_1_1_security_config.pdf, id=2594, 501.875p
 t x 171.64125pt>
 File: classedu_1_1app_1_1server_1_1config_1_1_security_config.pdf Graphic file 
 (type pdf)
@@ -2098,7 +2056,9 @@ File: classedu_1_1app_1_1server_1_1config_1_1_security_config.pdf Graphic file
 Package pdftex.def Info: classedu_1_1app_1_1server_1_1config_1_1_security_confi
 g.pdf  used on input line 6.
 (pdftex.def)             Requested size: 166.38506pt x 56.9055pt.
-
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [62]
 Underfull \hbox (badness 3009) in paragraph at lines 12--15
 [][] \T1/phv/b/n/10 Security[]Config \T1/phv/m/n/10 (B[]Crypt[]Password[]Encode
 r b[]Crypt[]Password[]Encoder, User[]Details[]Service user[]Detail[]
@@ -2111,45 +2071,44 @@ rce[]
  []
 
 ) (classedu_1_1app_1_1server_1_1config_1_1_security_data.tex)
-(classedu_1_1app_1_1server_1_1_server_rest_application.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
- [56])
+(classedu_1_1app_1_1server_1_1_server_rest_application.tex)
 (enumedu_1_1app_1_1server_1_1model_1_1_state.tex
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
- [57])
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+ [63])
 (classedu_1_1app_1_1server_1_1model_1_1_task.tex
 
 pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1model_1_1_task.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
  <./classedu_1_1app_1_1server_1_1model_1_1_task.pdf>
-<classedu_1_1app_1_1server_1_1model_1_1_task.pdf, id=2425, 501.875pt x 82.3075p
+<classedu_1_1app_1_1server_1_1model_1_1_task.pdf, id=2630, 501.875pt x 82.3075p
 t>
 File: classedu_1_1app_1_1server_1_1model_1_1_task.pdf Graphic file (type pdf)
 <use classedu_1_1app_1_1server_1_1model_1_1_task.pdf>
 Package pdftex.def Info: classedu_1_1app_1_1server_1_1model_1_1_task.pdf  used 
 on input line 6.
 (pdftex.def)             Requested size: 346.991pt x 56.9055pt.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [58]
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
- [59])
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+ [65])
 (classedu_1_1app_1_1server_1_1model_1_1_task_test.tex)
 (classedu_1_1app_1_1server_1_1utils_1_1_token.tex)
 (classedu_1_1app_1_1server_1_1model_1_1_user.tex
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
- [60])
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [66])
 (classedu_1_1app_1_1server_1_1config_1_1_user_detail_service_impl.tex
 
 pdfTeX warning: pdflatex (file ./classedu_1_1app_1_1server_1_1config_1_1_user_d
 etail_service_impl.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
  <./classedu_1_1app_1_1server_1_1config_1_1_user_detail_service_impl.pdf>
-<classedu_1_1app_1_1server_1_1config_1_1_user_detail_service_impl.pdf, id=2481,
+<classedu_1_1app_1_1server_1_1config_1_1_user_detail_service_impl.pdf, id=2687,
  501.875pt x 146.5475pt>
 File: classedu_1_1app_1_1server_1_1config_1_1_user_detail_service_impl.pdf Grap
 hic file (type pdf)
@@ -2157,14 +2116,16 @@ hic file (type pdf)
 Package pdftex.def Info: classedu_1_1app_1_1server_1_1config_1_1_user_detail_se
 rvice_impl.pdf  used on input line 6.
 (pdftex.def)             Requested size: 194.88042pt x 56.9055pt.
-)
-(interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository.tex
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+[67]) (interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository.tex
 
 pdfTeX warning: pdflatex (file ./interfaceedu_1_1app_1_1server_1_1repository_1_
 1_user_repository.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
  <./interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository.pdf>
-<interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository.pdf, id=2488, 
+<interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository.pdf, id=2703, 
 501.875pt x 94.3525pt>
 File: interfaceedu_1_1app_1_1server_1_1repository_1_1_user_repository.pdf Graph
 ic file (type pdf)
@@ -2177,14 +2138,14 @@ Underfull \hbox (badness 10000) detected at line 19
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
-[61]
+
 Underfull \hbox (badness 10000) detected at line 22
 [][][]
  []
 
-
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+[68]
 Underfull \hbox (badness 10000) detected at line 43
 [][][]
  []
@@ -2196,43 +2157,34 @@ Underfull \hbox (badness 10000) detected at line 46
 
 ) (classedu_1_1app_1_1server_1_1repository_1_1_user_repository_test.tex)
 (classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
- [62]
 Underfull \hbox (badness 10000) detected at line 19
 [][][]
  []
 
-
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+[69]
 Underfull \hbox (badness 10000) detected at line 22
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
-[63]
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
- [64]
+
 Underfull \hbox (badness 10000) detected at line 57
 [][][]
  []
 
-
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+[70]
 Underfull \hbox (badness 10000) detected at line 81
 [][][]
  []
 
-) (classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_test.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]\T1/phv/m/n/10 C[]:/[]Users/erick/[]Idea[]Projects/this-is-my-time/src/test/j
-ava/edu/app/server/controller/User[]Rest[]Controller[]Test.[]
- []
-
-) (classedu_1_1app_1_1server_1_1service_1_1_user_service.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
- [65]
+) (classedu_1_1app_1_1server_1_1controller_1_1_user_rest_controller_test.tex)
+(classedu_1_1app_1_1server_1_1service_1_1_user_service.tex
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+ [71]
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -2242,9 +2194,9 @@ Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-[66]
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+[72]
 Underfull \hbox (badness 10000) detected at line 65
 [][][]
  []
@@ -2264,9 +2216,7 @@ Underfull \hbox (badness 10000) detected at line 82
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
-[67]
+
 Underfull \hbox (badness 10000) detected at line 98
 [][][]
  []
@@ -2276,7 +2226,9 @@ Underfull \hbox (badness 10000) detected at line 101
 [][][]
  []
 
-
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+[73]
 Underfull \hbox (badness 10000) detected at line 117
 [][][]
  []
@@ -2296,9 +2248,9 @@ Underfull \hbox (badness 10000) detected at line 139
 [][][]
  []
 
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
-[68]
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+[74]
 Underfull \hbox (badness 10000) detected at line 155
 [][][]
  []
@@ -2311,12 +2263,12 @@ Underfull \hbox (badness 10000) detected at line 158
 ) (classedu_1_1app_1_1server_1_1service_1_1_user_service_test.tex)
 (classedu_1_1app_1_1server_1_1model_1_1_user_test.tex)
 (classedu_1_1app_1_1server_1_1config_1_1_validation_message.tex)
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
- [69]
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
- [70
+LaTeX Info: Redefining \. on input line 261.
+LaTeX Info: Redefining \% on input line 261.
+ [75]
+LaTeX Info: Redefining \. on input line 261.
+LaTeX Info: Redefining \% on input line 261.
+ [76
 
 ]
 (refman.ind
@@ -2345,171 +2297,171 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 []\T1/phv/m/n/10 edu.app.server.controller.AuthorityRestControllerTest,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 []\T1/phv/m/n/10 edu.app.server.controller.GroupTaskRestControllerTest,
  []
 
 
-Overfull \hbox (21.80418pt too wide) in paragraph at lines 89--91
+Overfull \hbox (21.80418pt too wide) in paragraph at lines 92--94
 []\T1/phv/m/n/10 edu.app.server.controller.NonPeriodicTaskRestControllerTest,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 []\T1/phv/m/n/10 edu.app.server.controller.PeriodicityRestControllerTest,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 []\T1/phv/m/n/10 edu.app.server.controller.PeriodicTaskRestController,
  []
 
-[71
+[77
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 []\T1/phv/m/n/10 edu.app.server.repository.NonPeriodicTaskRepository,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 []\T1/phv/m/n/10 edu.app.server.repository.PeriodicTaskRepositoryTest,
  []
 
 LaTeX Info: Redefining \. on input line 239.
 LaTeX Info: Redefining \% on input line 239.
-[72]
-Overfull \hbox (25.37943pt too wide) in paragraph at lines 255--257
+[78]
+Overfull \hbox (25.37943pt too wide) in paragraph at lines 262--264
 []| \T1/phv/m/n/10 edu.app.server.controller.NonPeriodicTaskRestController,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
 []| \T1/phv/m/n/10 edu.app.server.controller.PeriodicityRestController,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 []| \T1/phv/m/n/10 edu.app.server.repository.GroupTaskRepository,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 []| \T1/phv/m/n/10 edu.app.server.repository.PeriodicTaskRepository,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
 []| \T1/phv/m/n/10 edu.app.server.controller.AuthorityRestController,
  []
 
 
-Overfull \hbox (25.37943pt too wide) in paragraph at lines 283--285
+Overfull \hbox (25.37943pt too wide) in paragraph at lines 290--292
 []| \T1/phv/m/n/10 edu.app.server.controller.NonPeriodicTaskRestController,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
 []| \T1/phv/m/n/10 edu.app.server.controller.PeriodicityRestController,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--295
-[]| \T1/phv/m/n/10 edu.app.server.controller.AuthorityRestController,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 300--302
-[]| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-[]| \T1/phv/m/n/10 edu.app.server.repository.GroupTaskRepository,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-[]| \T1/phv/m/n/10 edu.app.server.repository.PeriodicTaskRepository,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
-[]| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
-[]| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--369
 []| \T1/phv/m/n/10 edu.app.server.controller.AuthorityRestController,
  []
 
 
-Overfull \hbox (25.37943pt too wide) in paragraph at lines 373--375
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+[]| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+[]| \T1/phv/m/n/10 edu.app.server.repository.GroupTaskRepository,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+[]| \T1/phv/m/n/10 edu.app.server.repository.PeriodicTaskRepository,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
+[]| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+[]| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--376
+[]| \T1/phv/m/n/10 edu.app.server.controller.AuthorityRestController,
+ []
+
+LaTeX Info: Redefining \. on input line 379.
+LaTeX Info: Redefining \% on input line 379.
+[79]
+Overfull \hbox (25.37943pt too wide) in paragraph at lines 380--382
 []| \T1/phv/m/n/10 edu.app.server.controller.NonPeriodicTaskRestController,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
 []| \T1/phv/m/n/10 edu.app.server.controller.PeriodicityRestController,
  []
 
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
-[73]
-Overfull \hbox (25.37943pt too wide) in paragraph at lines 382--384
+
+Overfull \hbox (25.37943pt too wide) in paragraph at lines 389--391
 []| \T1/phv/m/n/10 edu.app.server.controller.NonPeriodicTaskRestController,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--387
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 []| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 []| \T1/phv/m/n/10 edu.app.server.controller.PeriodicityRestController,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
 []| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
 []| \T1/phv/m/n/10 edu.app.server.service.NonPeriodicTaskService,
  []
 
-LaTeX Info: Redefining \. on input line 482.
-LaTeX Info: Redefining \% on input line 482.
-[74])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+LaTeX Info: Redefining \. on input line 489.
+LaTeX Info: Redefining \% on input line 489.
+[80])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (refman.aux
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: F00580D8CCCD4D853B99C81CF85BBE5E;69095.
+(rerunfilecheck)             Checksum: FFC8A977F595F9CD2B032A297D825860;72653.
  ) 
 Here is how much of TeX's memory you used:
- 19072 strings out of 480790
- 326912 string characters out of 2905180
- 652238 words of memory out of 3000000
- 33924 multiletter control sequences out of 15000+200000
+ 19158 strings out of 480790
+ 329482 string characters out of 2905180
+ 656800 words of memory out of 3000000
+ 33956 multiletter control sequences out of 15000+200000
  589039 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,96p,944b,804s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2523,9 +2475,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/h
 elvetic/uhvro8a.pfb>
-Output written on refman.pdf (84 pages, 759498 bytes).
+Output written on refman.pdf (90 pages, 800890 bytes).
 PDF statistics:
- 3086 PDF objects out of 3580 (max. 8388607)
- 693 named destinations out of 1000 (max. 500000)
- 2089 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3310 PDF objects out of 3580 (max. 8388607)
+ 731 named destinations out of 1000 (max. 500000)
+ 2225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

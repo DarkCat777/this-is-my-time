@@ -2,481 +2,488 @@
 
   \item {addUser}
     \subitem {edu.app.server.controller.UserRestController}, 
-		\hyperpage{63}
+		\hyperpage{70}
   \item {attemptAuthentication}
     \subitem {edu.app.server.config.JWTAuthenticationFilter}, 
-		\hyperpage{24}
+		\hyperpage{30}
   \item {Authority}
-    \subitem {edu.app.server.model.Authority}, \hyperpage{6}
+    \subitem {edu.app.server.model.Authority}, \hyperpage{12}
   \item {AuthorityRestController}
     \subitem {edu.app.server.controller.AuthorityRestController}, 
-		\hyperpage{8}
+		\hyperpage{14}
   \item {AuthorityService}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{10}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{16}
 
   \indexspace
 
   \item {DAY}
-    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{40}
+    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{46}
   \item {deleteAuthority}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{11}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{17}
   \item {deleteGroupTask}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{21}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{27}
   \item {deleteNonPeriodicTask}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{30}
+		\hyperpage{36}
   \item {deleteOne}
     \subitem {edu.app.server.controller.AuthorityRestController}, 
-		\hyperpage{8}
+		\hyperpage{14}
     \subitem {edu.app.server.controller.GroupTaskRestController}, 
-		\hyperpage{18}
+		\hyperpage{24}
     \subitem {edu.app.server.controller.NonPeriodicTaskRestController}, 
-		\hyperpage{28}
+		\hyperpage{34}
     \subitem {edu.app.server.controller.PeriodicityRestController}, 
-		\hyperpage{35}
+		\hyperpage{41}
     \subitem {edu.app.server.controller.PeriodicTaskRestController}, 
-		\hyperpage{44}
+		\hyperpage{50}
     \subitem {edu.app.server.controller.UserRestController}, 
-		\hyperpage{65}
+		\hyperpage{70}
   \item {deletePeriodicity}
     \subitem {edu.app.server.service.PeriodicityService}, 
-		\hyperpage{37}
+		\hyperpage{43}
   \item {deletePeriodicTask}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{47}
+		\hyperpage{53}
   \item {deleteResource}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{53}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{60}
   \item {deleteUser}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{66}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{72}
   \item {description}
-    \subitem {edu.app.server.model.Task}, \hyperpage{59}
+    \subitem {edu.app.server.model.Task}, \hyperpage{66}
 
   \indexspace
 
-  \item {edu.app.server.config.Constants}, \hyperpage{14}
-  \item {edu.app.server.config.JWTAuthenticationFilter}, \hyperpage{23}
-    \subitem {attemptAuthentication}, \hyperpage{24}
-  \item {edu.app.server.config.JWTAuthorizationFilter}, \hyperpage{24}
-  \item {edu.app.server.config.SecurityConfig}, \hyperpage{56}
-  \item {edu.app.server.config.SecurityData}, \hyperpage{57}
-  \item {edu.app.server.config.UserDetailServiceImpl}, \hyperpage{61}
-  \item {edu.app.server.config.ValidationMessage}, \hyperpage{69}
+  \item {edu.app.server}, \hyperpage{7}
+  \item {edu.app.server.config}, \hyperpage{7}
+  \item {edu.app.server.config.Constants}, \hyperpage{20}
+  \item {edu.app.server.config.JWTAuthenticationFilter}, \hyperpage{29}
+    \subitem {attemptAuthentication}, \hyperpage{30}
+  \item {edu.app.server.config.JWTAuthorizationFilter}, \hyperpage{30}
+  \item {edu.app.server.config.SecurityConfig}, \hyperpage{63}
+  \item {edu.app.server.config.SecurityData}, \hyperpage{63}
+  \item {edu.app.server.config.UserDetailServiceImpl}, \hyperpage{68}
+  \item {edu.app.server.config.ValidationMessage}, \hyperpage{75}
+  \item {edu.app.server.controller}, \hyperpage{8}
   \item {edu.app.server.controller.AuthorityRestController}, 
-		\hyperpage{8}
-    \subitem {AuthorityRestController}, \hyperpage{8}
-    \subitem {deleteOne}, \hyperpage{8}
-    \subitem {findOne}, \hyperpage{9}
-    \subitem {getAll}, \hyperpage{9}
-    \subitem {newAuthority}, \hyperpage{9}
+		\hyperpage{14}
+    \subitem {AuthorityRestController}, \hyperpage{14}
+    \subitem {deleteOne}, \hyperpage{14}
+    \subitem {findOne}, \hyperpage{15}
+    \subitem {getAll}, \hyperpage{15}
+    \subitem {newAuthority}, \hyperpage{15}
   \item {edu.app.server.controller.AuthorityRestControllerTest}, 
-		\hyperpage{10}
+		\hyperpage{16}
   \item {edu.app.server.controller.GroupTaskRestController}, 
-		\hyperpage{18}
-    \subitem {deleteOne}, \hyperpage{18}
-    \subitem {findAll}, \hyperpage{19}
-    \subitem {findOne}, \hyperpage{19}
-    \subitem {GroupTaskRestController}, \hyperpage{18}
-    \subitem {newGroupTask}, \hyperpage{19}
+		\hyperpage{24}
+    \subitem {deleteOne}, \hyperpage{24}
+    \subitem {findAll}, \hyperpage{25}
+    \subitem {findOne}, \hyperpage{25}
+    \subitem {GroupTaskRestController}, \hyperpage{24}
+    \subitem {newGroupTask}, \hyperpage{25}
   \item {edu.app.server.controller.GroupTaskRestControllerTest}, 
-		\hyperpage{20}
+		\hyperpage{26}
   \item {edu.app.server.controller.NonPeriodicTaskRestController}, 
-		\hyperpage{27}
-    \subitem {deleteOne}, \hyperpage{28}
-    \subitem {findAll}, \hyperpage{28}
-    \subitem {findOne}, \hyperpage{28}
-    \subitem {newNonPeriodicTask}, \hyperpage{29}
-    \subitem {NonPeriodicTaskRestController}, \hyperpage{28}
+		\hyperpage{33}
+    \subitem {deleteOne}, \hyperpage{34}
+    \subitem {findAll}, \hyperpage{34}
+    \subitem {findOne}, \hyperpage{34}
+    \subitem {newNonPeriodicTask}, \hyperpage{35}
+    \subitem {NonPeriodicTaskRestController}, \hyperpage{34}
   \item {edu.app.server.controller.NonPeriodicTaskRestControllerTest}, 
-		\hyperpage{29}
+		\hyperpage{35}
   \item {edu.app.server.controller.PeriodicityRestController}, 
-		\hyperpage{34}
-    \subitem {deleteOne}, \hyperpage{35}
-    \subitem {findAll}, \hyperpage{35}
-    \subitem {findOne}, \hyperpage{35}
-    \subitem {newPeriodicity}, \hyperpage{36}
-    \subitem {PeriodicityRestController}, \hyperpage{34}
+		\hyperpage{40}
+    \subitem {deleteOne}, \hyperpage{41}
+    \subitem {findAll}, \hyperpage{41}
+    \subitem {findOne}, \hyperpage{41}
+    \subitem {newPeriodicity}, \hyperpage{42}
+    \subitem {PeriodicityRestController}, \hyperpage{40}
   \item {edu.app.server.controller.PeriodicityRestControllerTest}, 
-		\hyperpage{36}
+		\hyperpage{42}
   \item {edu.app.server.controller.PeriodicTaskRestController}, 
-		\hyperpage{44}
-    \subitem {deleteOne}, \hyperpage{44}
-    \subitem {findAll}, \hyperpage{45}
-    \subitem {findOne}, \hyperpage{45}
-    \subitem {newPeriodicTask}, \hyperpage{45}
-    \subitem {PeriodicTaskRestController}, \hyperpage{44}
-  \item {edu.app.server.controller.PeriodicTaskRestControllerTest}, 
-		\hyperpage{46}
-  \item {edu.app.server.controller.UserRestController}, \hyperpage{63}
-    \subitem {addUser}, \hyperpage{63}
-    \subitem {deleteOne}, \hyperpage{65}
-    \subitem {findAll}, \hyperpage{65}
-    \subitem {UserRestController}, \hyperpage{63}
-  \item {edu.app.server.controller.UserRestControllerTest}, 
-		\hyperpage{65}
-  \item {edu.app.server.error.ApiError}, \hyperpage{5}
-  \item {edu.app.server.error.ErrorRestController}, \hyperpage{14}
-    \subitem {handleConstraintViolation}, \hyperpage{15}
-  \item {edu.app.server.model.Authority}, \hyperpage{5}
-    \subitem {Authority}, \hyperpage{6}
-  \item {edu.app.server.model.AuthorityTest}, \hyperpage{13}
-  \item {edu.app.server.model.GroupTask}, \hyperpage{15}
-  \item {edu.app.server.model.GroupTaskTest}, \hyperpage{23}
-  \item {edu.app.server.model.NonPeriodicTask}, \hyperpage{25}
-  \item {edu.app.server.model.NonPeriodicTaskTest}, \hyperpage{33}
-  \item {edu.app.server.model.Periodicity}, \hyperpage{33}
-  \item {edu.app.server.model.PeriodicityType}, \hyperpage{39}
-    \subitem {DAY}, \hyperpage{40}
-    \subitem {MONTH}, \hyperpage{40}
-    \subitem {WEEK}, \hyperpage{40}
-    \subitem {YEAR}, \hyperpage{40}
-  \item {edu.app.server.model.PeriodicTask}, \hyperpage{40}
-  \item {edu.app.server.model.PeriodicTaskTest}, \hyperpage{50}
-  \item {edu.app.server.model.Resource}, \hyperpage{50}
-    \subitem {Resource}, \hyperpage{50}
-  \item {edu.app.server.model.ResourceTest}, \hyperpage{56}
-  \item {edu.app.server.model.State}, \hyperpage{57}
-    \subitem {IN\_PROCESS}, \hyperpage{57}
-    \subitem {PENDING}, \hyperpage{57}
-    \subitem {SUSPENDED}, \hyperpage{58}
-    \subitem {TERMINATED}, \hyperpage{58}
-  \item {edu.app.server.model.Task}, \hyperpage{58}
-    \subitem {description}, \hyperpage{59}
-    \subitem {id}, \hyperpage{59}
-    \subitem {name}, \hyperpage{59}
-    \subitem {state}, \hyperpage{59}
-    \subitem {Task}, \hyperpage{59}
-    \subitem {user}, \hyperpage{59}
-  \item {edu.app.server.model.TaskTest}, \hyperpage{60}
-  \item {edu.app.server.model.User}, \hyperpage{60}
-    \subitem {User}, \hyperpage{60}
-  \item {edu.app.server.model.UserTest}, \hyperpage{69}
-  \item {edu.app.server.repository.AuthorityRepository}, \hyperpage{6}
-    \subitem {findByAuthority}, \hyperpage{7}
-  \item {edu.app.server.repository.AuthorityRepositoryTest}, 
-		\hyperpage{7}
-  \item {edu.app.server.repository.GroupTaskRepository}, \hyperpage{16}
-    \subitem {findByName}, \hyperpage{16}
-    \subitem {getById}, \hyperpage{17}
-  \item {edu.app.server.repository.GroupTaskRepositoryTest}, 
-		\hyperpage{17}
-  \item {edu.app.server.repository.NonPeriodicTaskRepository}, 
-		\hyperpage{25}
-    \subitem {findByName}, \hyperpage{26}
-    \subitem {getById}, \hyperpage{26}
-  \item {edu.app.server.repository.NonPeriodicTaskRepositoryTest}, 
-		\hyperpage{27}
-  \item {edu.app.server.repository.PeriodicityRepository}, 
-		\hyperpage{33}
-  \item {edu.app.server.repository.PeriodicTaskRepository}, 
-		\hyperpage{41}
-    \subitem {findByName}, \hyperpage{42}
-    \subitem {getById}, \hyperpage{43}
-  \item {edu.app.server.repository.PeriodicTaskRepositoryTest}, 
-		\hyperpage{43}
-  \item {edu.app.server.repository.ResourceRepository}, \hyperpage{51}
-    \subitem {findByResource}, \hyperpage{51}
-  \item {edu.app.server.repository.ResourceRepositoryTest}, 
-		\hyperpage{52}
-  \item {edu.app.server.repository.UserRepository}, \hyperpage{61}
-    \subitem {findByUsername}, \hyperpage{62}
-  \item {edu.app.server.repository.UserRepositoryTest}, \hyperpage{62}
-  \item {edu.app.server.ServerRestApplication}, \hyperpage{57}
-  \item {edu.app.server.service.AuthorityService}, \hyperpage{10}
-    \subitem {AuthorityService}, \hyperpage{10}
-    \subitem {deleteAuthority}, \hyperpage{11}
-    \subitem {getAllAuthorities}, \hyperpage{11}
-    \subitem {getById}, \hyperpage{11}
-    \subitem {getByName}, \hyperpage{12}
-    \subitem {saveAuthority}, \hyperpage{12}
-    \subitem {updateAuthority}, \hyperpage{13}
-  \item {edu.app.server.service.AuthorityServiceTest}, \hyperpage{13}
-  \item {edu.app.server.service.GroupTaskService}, \hyperpage{20}
-    \subitem {deleteGroupTask}, \hyperpage{21}
-    \subitem {getAllGroupTask}, \hyperpage{21}
-    \subitem {getById}, \hyperpage{21}
-    \subitem {getByName}, \hyperpage{22}
-    \subitem {GroupTaskService}, \hyperpage{20}
-    \subitem {saveGroupTask}, \hyperpage{22}
-    \subitem {updateGroupTask}, \hyperpage{22}
-  \item {edu.app.server.service.GroupTaskServiceTest}, \hyperpage{23}
-  \item {edu.app.server.service.NonPeriodicTaskService}, \hyperpage{30}
-    \subitem {deleteNonPeriodicTask}, \hyperpage{30}
-    \subitem {getAllNonPeriodicTask}, \hyperpage{31}
-    \subitem {getById}, \hyperpage{31}
-    \subitem {getByName}, \hyperpage{31}
-    \subitem {NonPeriodicTaskService}, \hyperpage{30}
-    \subitem {saveNonPeriodicTask}, \hyperpage{32}
-    \subitem {updateNonPeriodicTask}, \hyperpage{32}
-  \item {edu.app.server.service.NonPeriodicTaskServiceTest}, 
-		\hyperpage{33}
-  \item {edu.app.server.service.PeriodicityService}, \hyperpage{36}
-    \subitem {deletePeriodicity}, \hyperpage{37}
-    \subitem {getAllPeriodicity}, \hyperpage{38}
-    \subitem {getById}, \hyperpage{38}
-    \subitem {PeriodicityService}, \hyperpage{37}
-    \subitem {savePeriodicity}, \hyperpage{38}
-    \subitem {updatePeriodicity}, \hyperpage{39}
-  \item {edu.app.server.service.PeriodicTaskService}, \hyperpage{46}
-    \subitem {deletePeriodicTask}, \hyperpage{47}
-    \subitem {getAllPeriodicTask}, \hyperpage{47}
-    \subitem {getById}, \hyperpage{48}
-    \subitem {getByName}, \hyperpage{48}
-    \subitem {PeriodicTaskService}, \hyperpage{47}
-    \subitem {savePeriodicTask}, \hyperpage{49}
-    \subitem {updatePeriodicTask}, \hyperpage{49}
-  \item {edu.app.server.service.PeriodicTaskServiceTest}, 
 		\hyperpage{50}
-  \item {edu.app.server.service.ResourceService}, \hyperpage{52}
-    \subitem {deleteResource}, \hyperpage{53}
-    \subitem {getAllResources}, \hyperpage{53}
+    \subitem {deleteOne}, \hyperpage{50}
+    \subitem {findAll}, \hyperpage{51}
+    \subitem {findOne}, \hyperpage{51}
+    \subitem {newPeriodicTask}, \hyperpage{51}
+    \subitem {PeriodicTaskRestController}, \hyperpage{50}
+  \item {edu.app.server.controller.PeriodicTaskRestControllerTest}, 
+		\hyperpage{52}
+  \item {edu.app.server.controller.UserRestController}, \hyperpage{69}
+    \subitem {addUser}, \hyperpage{70}
+    \subitem {deleteOne}, \hyperpage{70}
+    \subitem {findAll}, \hyperpage{71}
+    \subitem {UserRestController}, \hyperpage{70}
+  \item {edu.app.server.controller.UserRestControllerTest}, 
+		\hyperpage{71}
+  \item {edu.app.server.error}, \hyperpage{8}
+  \item {edu.app.server.error.ApiError}, \hyperpage{11}
+  \item {edu.app.server.error.ErrorRestController}, \hyperpage{20}
+    \subitem {handleConstraintViolation}, \hyperpage{21}
+  \item {edu.app.server.model}, \hyperpage{9}
+  \item {edu.app.server.model.Authority}, \hyperpage{11}
+    \subitem {Authority}, \hyperpage{12}
+  \item {edu.app.server.model.AuthorityTest}, \hyperpage{19}
+  \item {edu.app.server.model.GroupTask}, \hyperpage{21}
+  \item {edu.app.server.model.GroupTaskTest}, \hyperpage{29}
+  \item {edu.app.server.model.NonPeriodicTask}, \hyperpage{31}
+  \item {edu.app.server.model.NonPeriodicTaskTest}, \hyperpage{39}
+  \item {edu.app.server.model.Periodicity}, \hyperpage{39}
+  \item {edu.app.server.model.PeriodicityType}, \hyperpage{45}
+    \subitem {DAY}, \hyperpage{46}
+    \subitem {MONTH}, \hyperpage{46}
+    \subitem {WEEK}, \hyperpage{46}
+    \subitem {YEAR}, \hyperpage{46}
+  \item {edu.app.server.model.PeriodicTask}, \hyperpage{46}
+  \item {edu.app.server.model.PeriodicTaskTest}, \hyperpage{56}
+  \item {edu.app.server.model.Resource}, \hyperpage{56}
+    \subitem {Resource}, \hyperpage{56}
+  \item {edu.app.server.model.ResourceTest}, \hyperpage{62}
+  \item {edu.app.server.model.State}, \hyperpage{64}
+    \subitem {IN\_PROCESS}, \hyperpage{64}
+    \subitem {PENDING}, \hyperpage{64}
+    \subitem {SUSPENDED}, \hyperpage{64}
+    \subitem {TERMINATED}, \hyperpage{64}
+  \item {edu.app.server.model.Task}, \hyperpage{65}
+    \subitem {description}, \hyperpage{66}
+    \subitem {id}, \hyperpage{66}
+    \subitem {name}, \hyperpage{66}
+    \subitem {state}, \hyperpage{66}
+    \subitem {Task}, \hyperpage{65}
+    \subitem {user}, \hyperpage{66}
+  \item {edu.app.server.model.TaskTest}, \hyperpage{66}
+  \item {edu.app.server.model.User}, \hyperpage{67}
+    \subitem {User}, \hyperpage{67}
+  \item {edu.app.server.model.UserTest}, \hyperpage{75}
+  \item {edu.app.server.repository}, \hyperpage{9}
+  \item {edu.app.server.repository.AuthorityRepository}, \hyperpage{12}
+    \subitem {findByAuthority}, \hyperpage{13}
+  \item {edu.app.server.repository.AuthorityRepositoryTest}, 
+		\hyperpage{13}
+  \item {edu.app.server.repository.GroupTaskRepository}, \hyperpage{22}
+    \subitem {findByName}, \hyperpage{22}
+    \subitem {getById}, \hyperpage{23}
+  \item {edu.app.server.repository.GroupTaskRepositoryTest}, 
+		\hyperpage{23}
+  \item {edu.app.server.repository.NonPeriodicTaskRepository}, 
+		\hyperpage{31}
+    \subitem {findByName}, \hyperpage{32}
+    \subitem {getById}, \hyperpage{32}
+  \item {edu.app.server.repository.NonPeriodicTaskRepositoryTest}, 
+		\hyperpage{33}
+  \item {edu.app.server.repository.PeriodicityRepository}, 
+		\hyperpage{39}
+  \item {edu.app.server.repository.PeriodicTaskRepository}, 
+		\hyperpage{47}
+    \subitem {findByName}, \hyperpage{48}
+    \subitem {getById}, \hyperpage{49}
+  \item {edu.app.server.repository.PeriodicTaskRepositoryTest}, 
+		\hyperpage{49}
+  \item {edu.app.server.repository.ResourceRepository}, \hyperpage{57}
+    \subitem {findByResource}, \hyperpage{57}
+  \item {edu.app.server.repository.ResourceRepositoryTest}, 
+		\hyperpage{58}
+  \item {edu.app.server.repository.UserRepository}, \hyperpage{68}
+    \subitem {findByUsername}, \hyperpage{69}
+  \item {edu.app.server.repository.UserRepositoryTest}, \hyperpage{69}
+  \item {edu.app.server.ServerRestApplication}, \hyperpage{63}
+  \item {edu.app.server.service}, \hyperpage{10}
+  \item {edu.app.server.service.AuthorityService}, \hyperpage{16}
+    \subitem {AuthorityService}, \hyperpage{16}
+    \subitem {deleteAuthority}, \hyperpage{17}
+    \subitem {getAllAuthorities}, \hyperpage{17}
+    \subitem {getById}, \hyperpage{17}
+    \subitem {getByName}, \hyperpage{18}
+    \subitem {saveAuthority}, \hyperpage{18}
+    \subitem {updateAuthority}, \hyperpage{19}
+  \item {edu.app.server.service.AuthorityServiceTest}, \hyperpage{19}
+  \item {edu.app.server.service.GroupTaskService}, \hyperpage{26}
+    \subitem {deleteGroupTask}, \hyperpage{27}
+    \subitem {getAllGroupTask}, \hyperpage{27}
+    \subitem {getById}, \hyperpage{27}
+    \subitem {getByName}, \hyperpage{28}
+    \subitem {GroupTaskService}, \hyperpage{26}
+    \subitem {saveGroupTask}, \hyperpage{28}
+    \subitem {updateGroupTask}, \hyperpage{28}
+  \item {edu.app.server.service.GroupTaskServiceTest}, \hyperpage{29}
+  \item {edu.app.server.service.NonPeriodicTaskService}, \hyperpage{36}
+    \subitem {deleteNonPeriodicTask}, \hyperpage{36}
+    \subitem {getAllNonPeriodicTask}, \hyperpage{37}
+    \subitem {getById}, \hyperpage{37}
+    \subitem {getByName}, \hyperpage{37}
+    \subitem {NonPeriodicTaskService}, \hyperpage{36}
+    \subitem {saveNonPeriodicTask}, \hyperpage{38}
+    \subitem {updateNonPeriodicTask}, \hyperpage{38}
+  \item {edu.app.server.service.NonPeriodicTaskServiceTest}, 
+		\hyperpage{39}
+  \item {edu.app.server.service.PeriodicityService}, \hyperpage{42}
+    \subitem {deletePeriodicity}, \hyperpage{43}
+    \subitem {getAllPeriodicity}, \hyperpage{44}
+    \subitem {getById}, \hyperpage{44}
+    \subitem {PeriodicityService}, \hyperpage{43}
+    \subitem {savePeriodicity}, \hyperpage{44}
+    \subitem {updatePeriodicity}, \hyperpage{45}
+  \item {edu.app.server.service.PeriodicTaskService}, \hyperpage{52}
+    \subitem {deletePeriodicTask}, \hyperpage{53}
+    \subitem {getAllPeriodicTask}, \hyperpage{53}
     \subitem {getById}, \hyperpage{54}
     \subitem {getByName}, \hyperpage{54}
-    \subitem {ResourceService}, \hyperpage{53}
-    \subitem {saveResource}, \hyperpage{55}
-    \subitem {updateResource}, \hyperpage{55}
-  \item {edu.app.server.service.ResourceServiceTest}, \hyperpage{56}
-  \item {edu.app.server.service.UserService}, \hyperpage{66}
-    \subitem {deleteUser}, \hyperpage{66}
-    \subitem {getAllUsers}, \hyperpage{67}
-    \subitem {getById}, \hyperpage{67}
-    \subitem {getByUsername}, \hyperpage{68}
-    \subitem {saveUser}, \hyperpage{68}
-    \subitem {updateUser}, \hyperpage{69}
-    \subitem {UserService}, \hyperpage{66}
-  \item {edu.app.server.service.UserServiceTest}, \hyperpage{69}
-  \item {edu.app.server.utils.DateTimeTest}, \hyperpage{14}
-  \item {edu.app.server.utils.Token}, \hyperpage{60}
+    \subitem {PeriodicTaskService}, \hyperpage{53}
+    \subitem {savePeriodicTask}, \hyperpage{55}
+    \subitem {updatePeriodicTask}, \hyperpage{55}
+  \item {edu.app.server.service.PeriodicTaskServiceTest}, 
+		\hyperpage{56}
+  \item {edu.app.server.service.ResourceService}, \hyperpage{58}
+    \subitem {deleteResource}, \hyperpage{60}
+    \subitem {getAllResources}, \hyperpage{60}
+    \subitem {getById}, \hyperpage{60}
+    \subitem {getByName}, \hyperpage{61}
+    \subitem {ResourceService}, \hyperpage{59}
+    \subitem {saveResource}, \hyperpage{61}
+    \subitem {updateResource}, \hyperpage{62}
+  \item {edu.app.server.service.ResourceServiceTest}, \hyperpage{62}
+  \item {edu.app.server.service.UserService}, \hyperpage{71}
+    \subitem {deleteUser}, \hyperpage{72}
+    \subitem {getAllUsers}, \hyperpage{73}
+    \subitem {getById}, \hyperpage{73}
+    \subitem {getByUsername}, \hyperpage{73}
+    \subitem {saveUser}, \hyperpage{74}
+    \subitem {updateUser}, \hyperpage{74}
+    \subitem {UserService}, \hyperpage{72}
+  \item {edu.app.server.service.UserServiceTest}, \hyperpage{75}
+  \item {edu.app.server.utils.DateTimeTest}, \hyperpage{20}
+  \item {edu.app.server.utils.Token}, \hyperpage{67}
 
   \indexspace
 
   \item {findAll}
     \subitem {edu.app.server.controller.GroupTaskRestController}, 
-		\hyperpage{19}
+		\hyperpage{25}
     \subitem {edu.app.server.controller.NonPeriodicTaskRestController}, 
-		\hyperpage{28}
+		\hyperpage{34}
     \subitem {edu.app.server.controller.PeriodicityRestController}, 
-		\hyperpage{35}
+		\hyperpage{41}
     \subitem {edu.app.server.controller.PeriodicTaskRestController}, 
-		\hyperpage{45}
+		\hyperpage{51}
     \subitem {edu.app.server.controller.UserRestController}, 
-		\hyperpage{65}
+		\hyperpage{71}
   \item {findByAuthority}
     \subitem {edu.app.server.repository.AuthorityRepository}, 
-		\hyperpage{7}
+		\hyperpage{13}
   \item {findByName}
     \subitem {edu.app.server.repository.GroupTaskRepository}, 
-		\hyperpage{16}
+		\hyperpage{22}
     \subitem {edu.app.server.repository.NonPeriodicTaskRepository}, 
-		\hyperpage{26}
+		\hyperpage{32}
     \subitem {edu.app.server.repository.PeriodicTaskRepository}, 
-		\hyperpage{42}
+		\hyperpage{48}
   \item {findByResource}
     \subitem {edu.app.server.repository.ResourceRepository}, 
-		\hyperpage{51}
+		\hyperpage{57}
   \item {findByUsername}
-    \subitem {edu.app.server.repository.UserRepository}, \hyperpage{62}
+    \subitem {edu.app.server.repository.UserRepository}, \hyperpage{69}
   \item {findOne}
     \subitem {edu.app.server.controller.AuthorityRestController}, 
-		\hyperpage{9}
+		\hyperpage{15}
     \subitem {edu.app.server.controller.GroupTaskRestController}, 
-		\hyperpage{19}
+		\hyperpage{25}
     \subitem {edu.app.server.controller.NonPeriodicTaskRestController}, 
-		\hyperpage{28}
+		\hyperpage{34}
     \subitem {edu.app.server.controller.PeriodicityRestController}, 
-		\hyperpage{35}
+		\hyperpage{41}
     \subitem {edu.app.server.controller.PeriodicTaskRestController}, 
-		\hyperpage{45}
+		\hyperpage{51}
 
   \indexspace
 
   \item {getAll}
     \subitem {edu.app.server.controller.AuthorityRestController}, 
-		\hyperpage{9}
+		\hyperpage{15}
   \item {getAllAuthorities}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{11}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{17}
   \item {getAllGroupTask}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{21}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{27}
   \item {getAllNonPeriodicTask}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{31}
+		\hyperpage{37}
   \item {getAllPeriodicity}
     \subitem {edu.app.server.service.PeriodicityService}, 
-		\hyperpage{38}
+		\hyperpage{44}
   \item {getAllPeriodicTask}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{47}
+		\hyperpage{53}
   \item {getAllResources}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{53}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{60}
   \item {getAllUsers}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{67}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{73}
   \item {getById}
     \subitem {edu.app.server.repository.GroupTaskRepository}, 
-		\hyperpage{17}
+		\hyperpage{23}
     \subitem {edu.app.server.repository.NonPeriodicTaskRepository}, 
-		\hyperpage{26}
+		\hyperpage{32}
     \subitem {edu.app.server.repository.PeriodicTaskRepository}, 
-		\hyperpage{43}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{11}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{21}
+		\hyperpage{49}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{17}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{27}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{31}
+		\hyperpage{37}
     \subitem {edu.app.server.service.PeriodicityService}, 
-		\hyperpage{38}
+		\hyperpage{44}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{48}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{54}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{67}
+		\hyperpage{54}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{60}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{73}
   \item {getByName}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{12}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{22}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{18}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{28}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{31}
+		\hyperpage{37}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{48}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{54}
+		\hyperpage{54}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{61}
   \item {getByUsername}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{68}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{73}
   \item {GroupTaskRestController}
     \subitem {edu.app.server.controller.GroupTaskRestController}, 
-		\hyperpage{18}
+		\hyperpage{24}
   \item {GroupTaskService}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{20}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{26}
 
   \indexspace
 
   \item {handleConstraintViolation}
-    \subitem {edu.app.server.error.ErrorRestController}, \hyperpage{15}
+    \subitem {edu.app.server.error.ErrorRestController}, \hyperpage{21}
 
   \indexspace
 
   \item {id}
-    \subitem {edu.app.server.model.Task}, \hyperpage{59}
+    \subitem {edu.app.server.model.Task}, \hyperpage{66}
   \item {IN\_PROCESS}
-    \subitem {edu.app.server.model.State}, \hyperpage{57}
+    \subitem {edu.app.server.model.State}, \hyperpage{64}
 
   \indexspace
 
   \item {MONTH}
-    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{40}
+    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{46}
 
   \indexspace
 
   \item {name}
-    \subitem {edu.app.server.model.Task}, \hyperpage{59}
+    \subitem {edu.app.server.model.Task}, \hyperpage{66}
   \item {newAuthority}
     \subitem {edu.app.server.controller.AuthorityRestController}, 
-		\hyperpage{9}
+		\hyperpage{15}
   \item {newGroupTask}
     \subitem {edu.app.server.controller.GroupTaskRestController}, 
-		\hyperpage{19}
+		\hyperpage{25}
   \item {newNonPeriodicTask}
     \subitem {edu.app.server.controller.NonPeriodicTaskRestController}, 
-		\hyperpage{29}
+		\hyperpage{35}
   \item {newPeriodicity}
     \subitem {edu.app.server.controller.PeriodicityRestController}, 
-		\hyperpage{36}
+		\hyperpage{42}
   \item {newPeriodicTask}
     \subitem {edu.app.server.controller.PeriodicTaskRestController}, 
-		\hyperpage{45}
+		\hyperpage{51}
   \item {NonPeriodicTaskRestController}
     \subitem {edu.app.server.controller.NonPeriodicTaskRestController}, 
-		\hyperpage{28}
+		\hyperpage{34}
   \item {NonPeriodicTaskService}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{30}
+		\hyperpage{36}
 
   \indexspace
 
   \item {PENDING}
-    \subitem {edu.app.server.model.State}, \hyperpage{57}
+    \subitem {edu.app.server.model.State}, \hyperpage{64}
   \item {PeriodicityRestController}
     \subitem {edu.app.server.controller.PeriodicityRestController}, 
-		\hyperpage{34}
+		\hyperpage{40}
   \item {PeriodicityService}
     \subitem {edu.app.server.service.PeriodicityService}, 
-		\hyperpage{37}
+		\hyperpage{43}
   \item {PeriodicTaskRestController}
     \subitem {edu.app.server.controller.PeriodicTaskRestController}, 
-		\hyperpage{44}
+		\hyperpage{50}
   \item {PeriodicTaskService}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{47}
+		\hyperpage{53}
 
   \indexspace
 
   \item {Resource}
-    \subitem {edu.app.server.model.Resource}, \hyperpage{50}
+    \subitem {edu.app.server.model.Resource}, \hyperpage{56}
   \item {ResourceService}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{53}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{59}
 
   \indexspace
 
   \item {saveAuthority}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{12}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{18}
   \item {saveGroupTask}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{22}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{28}
   \item {saveNonPeriodicTask}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{32}
+		\hyperpage{38}
   \item {savePeriodicity}
     \subitem {edu.app.server.service.PeriodicityService}, 
-		\hyperpage{38}
+		\hyperpage{44}
   \item {savePeriodicTask}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{49}
+		\hyperpage{55}
   \item {saveResource}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{55}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{61}
   \item {saveUser}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{68}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{74}
   \item {state}
-    \subitem {edu.app.server.model.Task}, \hyperpage{59}
+    \subitem {edu.app.server.model.Task}, \hyperpage{66}
   \item {SUSPENDED}
-    \subitem {edu.app.server.model.State}, \hyperpage{58}
+    \subitem {edu.app.server.model.State}, \hyperpage{64}
 
   \indexspace
 
   \item {Task}
-    \subitem {edu.app.server.model.Task}, \hyperpage{59}
+    \subitem {edu.app.server.model.Task}, \hyperpage{65}
   \item {TERMINATED}
-    \subitem {edu.app.server.model.State}, \hyperpage{58}
+    \subitem {edu.app.server.model.State}, \hyperpage{64}
 
   \indexspace
 
   \item {updateAuthority}
-    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{13}
+    \subitem {edu.app.server.service.AuthorityService}, \hyperpage{19}
   \item {updateGroupTask}
-    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{22}
+    \subitem {edu.app.server.service.GroupTaskService}, \hyperpage{28}
   \item {updateNonPeriodicTask}
     \subitem {edu.app.server.service.NonPeriodicTaskService}, 
-		\hyperpage{32}
+		\hyperpage{38}
   \item {updatePeriodicity}
     \subitem {edu.app.server.service.PeriodicityService}, 
-		\hyperpage{39}
+		\hyperpage{45}
   \item {updatePeriodicTask}
     \subitem {edu.app.server.service.PeriodicTaskService}, 
-		\hyperpage{49}
+		\hyperpage{55}
   \item {updateResource}
-    \subitem {edu.app.server.service.ResourceService}, \hyperpage{55}
+    \subitem {edu.app.server.service.ResourceService}, \hyperpage{62}
   \item {updateUser}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{69}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{74}
   \item {User}
-    \subitem {edu.app.server.model.User}, \hyperpage{60}
+    \subitem {edu.app.server.model.User}, \hyperpage{67}
   \item {user}
-    \subitem {edu.app.server.model.Task}, \hyperpage{59}
+    \subitem {edu.app.server.model.Task}, \hyperpage{66}
   \item {UserRestController}
     \subitem {edu.app.server.controller.UserRestController}, 
-		\hyperpage{63}
+		\hyperpage{70}
   \item {UserService}
-    \subitem {edu.app.server.service.UserService}, \hyperpage{66}
+    \subitem {edu.app.server.service.UserService}, \hyperpage{72}
 
   \indexspace
 
   \item {WEEK}
-    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{40}
+    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{46}
 
   \indexspace
 
   \item {YEAR}
-    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{40}
+    \subitem {edu.app.server.model.PeriodicityType}, \hyperpage{46}
 
 \end{theindex}
